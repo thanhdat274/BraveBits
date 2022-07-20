@@ -306,21 +306,43 @@ section {
     height: auto;
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 111px 111px 111px 111px 111px;
-    grid-template-rows: auto;
+    grid-template-columns: 111px 111px 111px 111px 111px 111px 111px 111px 111px 111px 111px 111px;
+
     column-gap: 10px;
 }
-.item-categories-outer{
-    width: 111px;
-    height: 125px; 
- 
+.title-cate{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
 }
-.item-categories{
+.title-cate:hover{
+    color: black;
+    text-decoration: underline solid rgb(17, 17, 17);
+}
+.item-categories-outer {
     width: 111px;
     height: 125px;
-   display: block;
+    margin-bottom: 10px;
 }
-.item-cate-title{
+
+.item-categories {
+    width: 111px;
+    height: 125px;
+    min-height: 125px;
+    display: block;
+    padding-top: 5%;
+    padding-left: 5%;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.item-cate-title {
     color: white;
     text-decoration: none;
     list-style: none;
