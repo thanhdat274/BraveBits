@@ -11,52 +11,92 @@
     background: rgb(251, 251, 251);
 }
 
-.header {
-    background: white;
-    height: 25px;
+/* phần header */
+.header-top {
+    width: 100%;
+    height: auto;
+    background: #d70018;
 }
 
-.menu a {
-    margin: 0 20px;
+.header-container {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    padding: 3px 5px;
+    border-radius: 10px;
     text-decoration: none;
-    color: black;
+    position: relative;
+    margin-right: 10px;
 }
 
-.menu a:hover {
-    color: black;
-    text-decoration: none;
+.about__box-icon {
+    font-size: 16px;
+    color: white;
+    padding: 5px;
 }
 
-.menu1 {
-    margin: 0 20px;
-    color: #f1aa0c;
+.about__box-content {
+    font-size: 14px;
+    color: white;
 }
 
-.header1 {
-    background: #be3e42;
-    height: 100px
+.navbar {
+    width: 100%;
+    height: 64px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
-.box1 {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+.nav-brand {
+    width: 200px;
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    min-height: 3.25rem;
+}
+
+.box-logo-desktop {
+    width: 200px;
+    color: #4a4a4a;
+    display: block;
+    line-height: 1.5%;
+    padding: .5rem .75rem;
+    position: relative;
+}
+
+.header-img {
+    width: 100%;
 }
 
 .box-search {
     width: 400px;
     height: 35px;
-    margin-left: 35px;
-    margin-right: 35px;
-    background-color: white;
-    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
     position: relative;
+    border-radius: 5px;
+    border: 0;
+
 }
 
 .search {
-    width: 350px;
+    width: 400px;
     height: 35px;
     padding-left: 10px;
     display: flex;
+    border-radius: 5px;
 }
 
 .btn-search {
@@ -65,105 +105,52 @@
     position: absolute;
     top: 0;
     right: 0;
+    border-radius: 5px;
+    background-color: white;
 }
 
-.box {
-    max-width: 1440px;
+
+/* phần menu với slide */
+.content {
+    width: 1440px;
+    height: 450px;
     margin: auto;
-}
-
-
-.logo {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.image {
-    width: 55px;
-    height: 70px;
-    margin-left: auto;
-    margin-right: auto
-}
-
-
-.header2 {
-    height: 50px;
-    background: #cd4040;
-}
-
-nav {
-    color: white;
-}
-
-.box-menu {
     display: flex;
-    justify-content: center;
+    margin-top: 20px;
 }
 
-nav ul {
+.menu {
+    width: 240px;
+    height: 450px;
     display: flex;
-    height: 50px;
-    padding-top: 0.5rem;
-    /* 8px */
-    padding-bottom: 0.5rem;
-    /* 8px */
+    font-size: 14px;
+    background: rgb(220, 220, 220);
+    margin: 0 10px 0 0;
+}
+
+.menu ul li {
+    font-size: 15px;
     list-style: none;
+    line-height: 18px;
+    margin: 20px 10px 20px 10px;
+    font-weight: 500;
 }
 
-.menu-item {
-    margin-left: 20px;
-    margin-right: 20px;
-    line-height: 35px;
-    display: inline-block;
-    color: rgb(243 244 246);
-    text-decoration: none;
-}
-
-.menu-item:hover {
-    color: rgb(243 244 246)
-}
-
-nav ul li:hover>a {
-    opacity: .7;
-}
-
-nav li:hover>ul {
-    display: block;
-}
-
-.sub-menu li {
-    display: block;
-    padding: 0 25px;
-    line-height: 30px;
+.menu ul li a {
     color: black;
-
-}
-
-.sub-menu {
-    display: none;
-    min-width: 300px;
-    position: absolute;
     text-decoration: none;
 }
 
-.sub-menu li {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    background: #fff;
-    text-align: left;
+.menu ul li a:hover {
+    color: rgb(90, 90, 90);
+
 }
 
-/* phần cart */
-.cart {
-    margin: auto;
-    color: white;
-}
 
-/* phần banner */
 .banner {
-    max-width: 1440px;
-    margin: auto;
+    width: 1240px;
+    height: auto;
+    display: flex;
 }
 
 .anh {
@@ -239,7 +226,7 @@ section {
 
 .product {
     width: 260px;
-    height: 400px;
+    height: 420px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -417,6 +404,7 @@ section {
     width: 340px;
     margin-top: 20px;
 }
+
 .store__content1 {
     width: 340px;
 }
@@ -496,3 +484,13 @@ section {
     text-decoration: none;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 320px) {
+    #wrapper{
+
+    }
+}
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width: 900px) {}
