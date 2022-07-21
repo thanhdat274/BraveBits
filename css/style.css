@@ -486,11 +486,31 @@ section {
 }
 
 @media screen and (max-width: 320px) {
-    #wrapper{
+    #wrapper {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background: rgb(251, 251, 251);
+    }
 
+    .header-top {
+        width: 100%;
+        height: auto;
+        background: #d70018;
+    }
+
+    .header-container {
+        max-width: 1440px;
+        height: 100%;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        box-sizing: border-box;
     }
 }
 
 @media screen and (max-width: 480px) {}
 
 @media screen and (max-width: 900px) {}
+
+@media screen and (width: 1200px) {}
