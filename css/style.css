@@ -620,8 +620,9 @@ section {
     }
 
     .banner {
-        width: 320px;
+        width: 100%;
         display: flex;
+        margin: 0 10px;
     }
 
     .anh {
@@ -763,7 +764,8 @@ section {
 
     .product-name {
         margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
         font-size: 12px;
     }
 
@@ -780,7 +782,7 @@ section {
     .costPrice {
         color: black;
         margin-left: 5px;
-        font-size: 9px;
+        font-size: 8px;
         font-weight: bold;
         text-decoration: line-through;
     }
@@ -899,7 +901,8 @@ section {
         border-radius: 10px 10px 0 0;
 
     }
-    .menu-bottom-list{
+
+    .menu-bottom-list {
         width: 100%;
         display: flex;
         padding: 0;
@@ -907,7 +910,8 @@ section {
         list-style: none;
         text-align: center;
     }
-    .menu-bottom-item{
+
+    .menu-bottom-item {
         display: flex;
         align-items: center;
         height: 40px;
@@ -915,13 +919,15 @@ section {
         position: relative;
         margin-right: 10px;
     }
-    .menu-bottom-icon{
+
+    .menu-bottom-icon {
         width: 65px;
         font-size: 14px;
         color: black;
         padding: 5px;
         text-align: center;
     }
+
     .menu-bottom-content {
         font-size: 12px;
         color: black;
