@@ -24,7 +24,7 @@
 }
 
 .header-container {
-    max-width: 1440px;
+    max-width: 1200px;
     height: 100%;
     margin: 0 auto;
     display: block;
@@ -114,49 +114,98 @@
 
 /* phần menu với slide */
 .content {
-    width: 1440px;
-    height: 450px;
+    width: 1200px;
+    height: 376px;
     margin: auto;
     display: flex;
     margin-top: 80px;
 }
 
-.menu {
-    width: 240px;
-    height: 450px;
-    display: flex;
-    font-size: 14px;
-    background: rgb(220, 220, 220);
-    margin: 0 10px 0 0;
+/* start menu */
+.menu-container {
+    width: 205px;
+    height: 376px;
+    margin-right: 15px;
+    display: block;
+    border-radius: 15px;
+    overflow: auto;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
 }
 
-.menu ul li {
-    font-size: 15px;
-    list-style: none;
-    line-height: 18px;
-    margin: 20px 10px 20px 10px;
-    font-weight: 500;
+.menu-wrapper {
+    position: unset;
+    height: 100%;
+    overflow-y: hidden;
 }
 
-.menu ul li a {
-    color: black;
+.menu-tree {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 205px;
+    min-height: 375px;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+.label-menu-tree {
+    padding: 0 10px;
+    display: block;
     text-decoration: none;
 }
 
-.menu ul li a:hover {
-    color: rgb(90, 90, 90);
-
-}
-
-.banner {
-    width: 1240px;
-    height: auto;
-    display: flex;
-}
-
-.anh {
+.label-item {
     width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #343a40;
+    min-height: 31.3px;
+    cursor: pointer;
 }
+
+.label-item span {
+    flex: 1;
+    font-size: 12px;
+    font-weight: 700;
+    color: #343a40;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.icons-cate {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.icon-right {
+    width: 7.5px;
+}
+
+/* end menu */
+/* start banner */
+.banner{
+    width: calc(100% - 500px);
+    margin-right: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+.banner-content{
+    height: 376px;
+}
+.banner-img{
+    height: 307px;
+}
+
+/* end banner */
+
+/* --------------------------------- */
 
 /* phần content */
 section {
@@ -164,7 +213,7 @@ section {
 }
 
 .box-content {
-    max-width: 1440px;
+    max-width: 1200px;
     height: auto;
     margin: auto;
     margin-top: 30px;
@@ -179,7 +228,7 @@ section {
 }
 
 .box-title {
-    max-width: 1440px;
+    max-width: 1200px;
     height: 30px;
     position: relative;
     display: flex;
@@ -224,19 +273,19 @@ section {
 }
 
 .product-list {
-    max-width: 1440px;
+    max-width: 1200px;
     height: auto;
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 260px 260px 260px 260px 260px;
+    grid-template-columns: 220px 220px 220px 220px 220px;
     grid-template-rows: auto;
-    column-gap: 35px;
+    column-gap: 25px;
 }
 
 
 .product {
-    width: 260px;
-    height: 420px;
+    width: 220px;
+    height: 400px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -248,7 +297,6 @@ section {
     text-align: center;
 }
 
-
 .product-img img {
     height: 160px;
     margin-top: 10px;
@@ -258,11 +306,11 @@ section {
 .product-name {
     margin-top: 10px;
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .product-price {
-    margin-top: 40px;
+    margin-top: 25px;
     margin-left: 10px;
 }
 
@@ -286,7 +334,7 @@ section {
 
 .promotion {
     padding: 10px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .product-sao {
@@ -305,7 +353,7 @@ section {
     height: auto;
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 111px 111px 111px 111px 111px 111px 111px 111px 111px 111px 111px 111px;
+    grid-template-columns: 111px 111px 111px 111px 111px 111px 111px 111px 111px 111px;
     column-gap: 10px;
 }
 
@@ -314,7 +362,6 @@ section {
     top: 0;
     right: 0;
     height: 30px;
-    padding: 0 10px;
     line-height: 30px;
     text-decoration: none;
     color: black;
@@ -337,8 +384,9 @@ section {
     width: 111px;
     height: 125px;
     display: block;
-    padding-top: 5%;
-    padding-left: 5%;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-decoration: none;
     list-style: none;
     border-radius: 10px;
@@ -352,19 +400,17 @@ section {
 }
 
 .band-banner {
-    max-width: 1440px;
+    max-width: 1200px;
     height: auto;
-    margin: auto;
-    margin-top: 30px;
+    margin: 30px auto;
 }
 
 .brand-banner__content {
-    max-width: 1440px;
+    max-width: 1200px;
     margin-top: 20px;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    column-gap: 20px;
-
+    column-gap: 15px;
 }
 
 .brand-banner__item {
@@ -372,8 +418,8 @@ section {
 }
 
 .brand-banner__img {
-    width: 340px;
-    height: 140px;
+    width: 290px;
+    height: 122px;
     box-shadow: 2px 2px 2px 2px #e6e6e6;
     border-radius: 5px;
 }
@@ -382,30 +428,73 @@ section {
     display: none;
 }
 
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    position: relative;
+    overflow-x: hidden;
+    background: #fff;
+}
+
 .footer-top {
-    max-width: 1440px;
+    max-width: 1200px;
     height: auto;
     margin: auto;
-    margin-top: 30px;
+    padding: 15px;
+}
+
+.footer-bottom {
+    width: 100%;
+    background: #f8f8f8;
+    margin: auto;
+    padding: 15px;
+}
+
+.footer-container {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+}
+
+.icon-bottom {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-cps img {
+    width: 80px;
+    height: 38px;
+}
+
+.icon-cps1 img {
+    width: 96px;
+    height: 30px;
 }
 
 .cps-container {
-    max-width: 1440px;
+    max-width: 1200px;
     height: auto;
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 340px 340px 340px 340px;
+    grid-template-columns: 290px 290px 290px 290px;
     grid-template-rows: auto;
     column-gap: 25px;
 }
 
 .footer-top__box-one {
-    width: 340px;
+    width: 290px;
     height: 300px;
 }
 
+
 .box-one__store {
-    width: 340px;
+    width: 290px;
     height: auto;
     position: relative;
     margin-bottom: 20px;
@@ -417,12 +506,12 @@ section {
 }
 
 .store__content {
-    width: 340px;
+    width: 290px;
     margin-top: 20px;
 }
 
 .store__content1 {
-    width: 340px;
+    width: 290px;
 }
 
 .list-link {
@@ -444,27 +533,27 @@ section {
 }
 
 .box-one__pay {
-    width: 340px;
+    width: 290px;
     height: auto;
 }
 
 .list-pay {
-    width: 340px;
+    width: 290px;
     height: 50px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .warranty-logo {
-    width: 340px;
+    width: 290px;
     height: auto;
 }
 
 .warranty-logo-dtv {
-    width: 340px;
+    width: 290px;
     height: 50px;
     display: flex;
-    background: red;
+    background: #d70018;
     list-style: none;
     text-decoration: none;
     border-radius: 5px;
@@ -476,7 +565,7 @@ section {
     display: flex;
     color: white;
     font-size: 12px;
-    padding: 5px 0 0 5px;
+    padding: 5px 0 0 10px;
 }
 
 .box-right {
@@ -485,16 +574,15 @@ section {
 }
 
 .box-right img {
-    width: 150px;
-    height: 30px;
+    width: 100px;
 }
 
 .warranty-logo-dtv-asp {
-    width: 340px;
+    width: 290px;
     height: 50px;
     display: flex;
     margin: 10px 0;
-    background: blue;
+    background: #334168;
     list-style: none;
     text-decoration: none;
     border-radius: 5px;
@@ -615,7 +703,7 @@ section {
         margin-top: 80px;
     }
 
-    .menu {
+    .menu-container {
         display: none;
     }
 
