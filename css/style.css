@@ -969,7 +969,7 @@ section {
 
     .product {
         width: 140px;
-        height: 300px;
+        height: 310px;
         margin-bottom: 20px;
         border-radius: 10px;
         box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.03), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.12);
@@ -977,7 +977,7 @@ section {
 
     .product:hover {
         width: 140px;
-        height: 300px;
+        height: 310px;
         margin-bottom: 20px;
         border-radius: 10px;
         box-shadow: 0;
@@ -998,17 +998,17 @@ section {
         margin-top: 20px;
         margin-left: 5px;
         margin-right: 5px;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .product-price {
-        margin-top: 10px;
+        margin-top: 8px;
         margin-left: 5px;
     }
 
     .salePrice {
         color: red;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .costPrice {
@@ -1020,14 +1020,14 @@ section {
     }
 
     .product-desc {
-        margin: 10px 10px 0 10px;
+        margin: 5px 10px 0 10px;
         background-color: rgb(235, 235, 235);
         border-radius: 2px;
     }
 
     .promotion {
         padding: 5px;
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .product-sao {
@@ -1035,6 +1035,11 @@ section {
         height: 10px;
         font-size: 9px;
         margin: 10px 10px;
+    }
+
+    .icon-star svg {
+        height: 8px;
+        fill: #f1aa0c;
     }
 
     .icon-star svg path {
@@ -1444,7 +1449,7 @@ section {
 
     .product {
         width: 140px;
-        height: 300px;
+        height: 310px;
         margin-bottom: 20px;
         border-radius: 10px;
         box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.03), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.12);
@@ -1452,7 +1457,7 @@ section {
 
     .product:hover {
         width: 140px;
-        height: 300px;
+        height: 310px;
         margin-bottom: 20px;
         border-radius: 10px;
         box-shadow: 0;
@@ -1473,7 +1478,7 @@ section {
         margin-top: 20px;
         margin-left: 5px;
         margin-right: 5px;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .product-price {
@@ -1483,7 +1488,7 @@ section {
 
     .salePrice {
         color: red;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .costPrice {
@@ -1495,14 +1500,14 @@ section {
     }
 
     .product-desc {
-        margin: 10px 10px 0 10px;
+        margin: 5px 10px 0 10px;
         background-color: rgb(235, 235, 235);
         border-radius: 2px;
     }
 
     .promotion {
         padding: 5px;
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .product-sao {
@@ -1510,6 +1515,10 @@ section {
         height: 10px;
         font-size: 9px;
         margin: 10px 10px;
+    }
+
+    .icon-star svg {
+        height: 10px;
     }
 
     .icon-star svg path {
@@ -2015,7 +2024,7 @@ section {
 
     .product {
         width: 140px;
-        height: 300px;
+        height: 320px;
         margin-bottom: 20px;
         border-radius: 10px;
         box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.03), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.12);
@@ -2023,7 +2032,7 @@ section {
 
     .product:hover {
         width: 140px;
-        height: 300px;
+        height: 320px;
         margin-bottom: 20px;
         border-radius: 10px;
         box-shadow: 0;
@@ -2048,7 +2057,7 @@ section {
     }
 
     .product-price {
-        margin-top: 10px;
+        margin-top: 9px;
         margin-left: 5px;
     }
 
@@ -2073,14 +2082,18 @@ section {
 
     .promotion {
         padding: 5px;
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .product-sao {
         display: flex;
         height: 10px;
-        font-size: 9px;
+        font-size: 10px;
         margin: 10px 10px;
+    }
+
+    .icon-star svg {
+        height: 10px;
     }
 
     .icon-star svg path {
