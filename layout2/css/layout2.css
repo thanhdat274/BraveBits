@@ -11,77 +11,78 @@
 }
 
 .header {
+    height: 1204px;
+    margin: auto;
+    background-image: url('/layout2/img/Rectangle 1.jpg');
+    background-repeat: no-repeat;
+}
+.header-top{
     width: 100%;
-    height: 800px;
-    margin: auto;
-}
-
-.header-bar {
-    max-width: 1440px;
-    height: 120px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-menu {
-    width: 1220px;
-    height: 50px;
-    margin: auto;
+    height: 30px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
-    position: relative;
-
+    align-items: center;
 }
-.header-logo{
-    width: 150px;
+.nav-band{
+    width: 46px;
+    height: 41px;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    color: white;
 }
-.logo {
-    width: 100%;
-}
-.menu-bar{
-    width: 500px;
-    height: 50px;
-    position: absolute;
-    right: 10px;
+.logo{
+    width: 46px;
+    height: 41px;
 }
 .menu{
+    width: 600px;
+    height: 30px;
+}
+.menu-item{
     width: 100%;
+    height: 30px;
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
     list-style: none;
+}
+.item-name{
     text-decoration: none;
+    color: white;
 }
-.menu-itmm-active{
-    border-bottom: 1px solid yellow;
-}
-.menu-name{
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-}
-.banner{
-    width: 1440px;
-    height: 600px;
-    margin: auto;
-    background: #ccc;
-}
-.img{
-    width: 1440px;
-    height: auto;
-    padding-top: 50px;
-    padding-right: 10px;
-}
-.content{
+.header-main{
     width: 100%;
+    height: 500px;
+    padding: 50px;
+    margin: 150px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-main-icon{
+    width: 30px;
     height: auto;
-    margin: auto;
+    text-align: center;
 }
-.box-content{
-    width: 1296px;
-    height: 375px;
-    margin: auto;
-    background: #000;
+.header-main-icon img{
+    margin: 15px 0;
+    text-align: center;
 }
+.header-title{
+    width: 1009px;
+    height: 305px;
+    color: white;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: -70px;
+    text-align: center;
 
+}
+.title1{
+    font-size: 250px;
+    text-align: center;
+    font-weight: bold;
+}
