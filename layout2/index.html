@@ -15,7 +15,7 @@
 <body>
     <div id="wrapper">
         <header>
-            <div class="header">
+            <div class="header" style="background-image: url('/layout2/img/Rectangle 1.jpg');">
                 <div class="header-top">
                     <div class="nav-band">
                         <a href="">
@@ -25,7 +25,7 @@
                     </div>
                     <div class="menu">
                         <nav>
-                            <ul class="menu-item">
+                            <ul id="header" class="menu-item" >
                                 <li><a href="" class="item-name">Destinations</a></li>
                                 <li><a href="" class="item-name">Activities</a></li>
                                 <li><a href="" class="item-name">About Us</a></li>
@@ -33,7 +33,7 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="header-top-icon">
+                    <div id="btn-menu" class="header-top-icon">
                         <img src="./img/Header.svg" alt="">
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                 <div class="slide-show">
                     <div class="pre">
                         <i class="fa-solid fa-arrow-left-long"></i>
-                        <p style="font-size: 12px;">BACK</p>
+                        <p>BACK</p>
                     </div>
                     <div class="my-slide">
                         <div class="slide">
@@ -145,7 +145,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="slide">
+                        <div class="slide slide1">
                             <a href="">
                                 <div class="box-image">
                                     <img src="./img/Rectangle 4.jpg" alt="">
@@ -156,7 +156,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="slide">
+                        <div class="slide slide1">
                             <a href="">
                                 <div class="box-image">
                                     <img src="./img/Rectangle 5.jpg" alt="">
@@ -170,7 +170,7 @@
                     </div>
                     <div class="next">
                         <i class="fa-solid fa-arrow-right-long"></i>
-                        <p style="font-size: 12px;">NEXT</p>
+                        <p>NEXT</p>
                     </div>
                 </div>
             </div>
@@ -408,10 +408,10 @@
                     <p class="name2">Our Partners</p>
                 </div>
                 <div class="logo-box">
-                    <img src="./img/Microsoft-Logo-Grey 1.jpg" alt="" style="width: 222px; height: 222px;">
-                    <img src="./img/magento-grey-logo 1.jpg" alt="" style="width: 232px; height: 154px;">
-                    <img src="./img/Lakehouse-logo_grey_0 1.jpg" alt="" style="width: 254px; height: 154px;">
-                    <img src="./img/Midea-Logo-grey 1.jpg" alt="" style="width: 183px; height: 71px;">
+                    <img src="./img/Microsoft-Logo-Grey 1.jpg" alt=""  class="img-logo" style="--width: 222px; --height: 222px;">
+                    <img src="./img/magento-grey-logo 1.jpg" alt=""  class="img-logo" style="--width: 232px; --height: 154px;">
+                    <img src="./img/Lakehouse-logo_grey_0 1.jpg" alt=""  class="img-logo" style="--width: 254px; --height: 154px;">
+                    <img src="./img/Midea-Logo-grey 1.jpg" alt=""  class="img-logo img-logo1" style="--width: 183px; --height: 71px;">
                 </div>
             </div>
             <div class="box-bottom">
@@ -432,7 +432,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="book">
+                    <div class="book book1">
                         <div class="book-top">
                             <i class="fa-solid fa-quote-left" style="color: #FF9921; opacity: 0.6;"></i>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh
@@ -448,7 +448,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="book">
+                    <div class="book book1">
                         <div class="book-top">
                             <i class="fa-solid fa-quote-left" style="color: #FF9921; opacity: 0.6;"></i>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh
@@ -504,6 +504,7 @@
             </div>
         </footer>
     </div>
+    <script src="./index.js"></script>
 </body>
 
 </html>
