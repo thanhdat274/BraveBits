@@ -614,7 +614,7 @@
 
 @media only screen and (max-width: 320px) {
     .header {
-        max-width: 320px;
+        max-width: 100%;
         height: 200px;
         margin: auto;
         background-repeat: no-repeat;
@@ -623,7 +623,7 @@
     }
 
     .header-top {
-        width: 100%;
+        max-width: 320px;
         height: 20px;
         padding: 20px;
         display: flex;
@@ -660,8 +660,14 @@
         height: 21px;
     }
 
+    .menu {
+        max-width: 100px;
+        display: block;
+
+    }
+
     .menu .header {
-        width: 320px;
+        max-width: 320px;
         display: block;
         position: relative;
     }
@@ -681,7 +687,7 @@
     }
 
     .header-main {
-        width: 100%;
+        max-width: 100%;
         height: 250px;
         padding: 20px;
         margin: auto;
@@ -695,8 +701,8 @@
     }
 
     .header-title {
-        width: 500px;
-        height: 200px;
+        width: 250px;
+        height: 150px;
         color: white;
     }
 
@@ -823,14 +829,14 @@
     }
 
     .box-img1 {
-        max-width: 320px;
+        max-width: 100%;
         height: 200px;
         border-radius: 10px;
         padding: 0 10px 10px 10px;
     }
 
     .box-img1 img {
-        max-width: 320px;
+        max-width: 100%;
         height: auto;
         border-radius: 10px;
     }
@@ -849,15 +855,15 @@
     }
 
     .desc-number {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         font-size: 18px;
         text-align: center;
         padding: 5px 0;
     }
 
     .desc-content {
-        max-width: 320px;
+        max-width: 220px;
         height: 100px;
     }
 
@@ -917,11 +923,11 @@
     }
 
     .title-box {
-        width: 100%;
+        max-width: 320px;
         height: 50px;
         font-size: 30px;
         display: flex;
-        margin: 0 10px;
+        padding: 0 0 0 10px;
     }
 
     .product-sao {
@@ -935,7 +941,7 @@
     .price {
         font-size: 20px;
         color: #959595;
-        padding: 0 10px;
+        padding: 0 0 0 10px;
     }
 
     .icon-star svg {
@@ -948,17 +954,19 @@
     }
 
     .content-box1 {
-        width: 100%;
+        max-width: 100%;
         height: 200px;
         margin-top: 50px;
+        padding: 0 10px;
         display: flex;
         flex-direction: column;
     }
 
     .select-box select,
     .select-box option {
-        width: 320px;
+        max-width: 300px;
         height: 30px;
+        margin: auto;
         padding: 0 10px;
         background: #F4F4F4;
         border-radius: 10px;
@@ -966,32 +974,33 @@
     }
 
     .select-box button {
-        width: 320px;
+        width: 300px;
         height: 30px;
         background: #3D3D3D;
         color: #fff;
-        font-size: 18px;
+        font-size: 12px;
         letter-spacing: 5px;
         border-radius: 10px;
     }
 
     .box-logo {
-        width: 100%;
+        max-width: 100%;
         height: 320px;
         margin: 100px auto;
     }
 
     .logo-box {
-        max-width: 320px;
+        max-width: 100%;
         height: 100px;
         margin: 20px auto;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        padding: 0 10px;
     }
 
     .img-logo {
-        width: 150px !important;
+        width: 120px !important;
         height: 100px !important;
     }
 
@@ -1149,7 +1158,7 @@
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
     .header {
-        max-width: 480px;
+        max-width: 100%;
         height: 300px;
         margin: auto;
         background-repeat: no-repeat;
@@ -1186,14 +1195,19 @@
         height: 31px;
     }
 
-    .menu .header {
-        width: 480px;
+    .menu {
+        width: 200px;
         display: block;
-        position: fixed;
+    }
+
+    .menu .header {
+        max-width: 480px;
+        display: block;
+        position: relative;
     }
 
     .menu-item {
-        position: fixed;
+        position: absolute;
         display: none;
         top: 80px;
         left: 0;
@@ -1208,7 +1222,7 @@
     }
 
     .header-main {
-        width: 100%;
+        max-width: 100%;
         height: 250px;
         padding: 20px;
         margin: auto;
@@ -1222,7 +1236,7 @@
     }
 
     .header-title {
-        width: 500px;
+        width: 450px;
         height: 200px;
     }
 
@@ -1345,14 +1359,14 @@
     }
 
     .box-img1 {
-        max-width: 480px;
+        max-width: 100%;
         height: 300px;
         border-radius: 10px;
         padding: 0 10px 10px 10px;
     }
 
     .box-img1 img {
-        max-width: 480px;
+        max-width: 100%;
         height: auto;
         border-radius: 10px;
     }
@@ -1371,15 +1385,15 @@
     }
 
     .desc-number {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         font-size: 18px;
         text-align: center;
         padding: 5px 0;
     }
 
     .desc-content {
-        max-width: 350px;
+        max-width: 300px;
         height: 100px;
     }
 
@@ -1394,8 +1408,6 @@
         padding-right: 10px;
     }
 
-
-
     .box-content2 {
         max-width: 480px;
         height: auto;
@@ -1403,7 +1415,7 @@
     }
 
     .box-container1 {
-        width: 100%;
+        max-width: 100%;
         height: auto;
         margin: 50px auto;
     }
@@ -1433,11 +1445,11 @@
     }
 
     .title-box {
-        width: 100%;
+        max-width: 470px;
         height: 50px;
         font-size: 30px;
         display: flex;
-        margin: 0 10px;
+        margin: 0 0 0 10px;
     }
 
     .product-sao {
@@ -1486,13 +1498,13 @@
         height: 30px;
         background: #3D3D3D;
         color: #fff;
-        font-size: 18px;
+        font-size: 12px;
         letter-spacing: 5px;
         border-radius: 10px;
     }
 
     .box-logo {
-        width: 100%;
+        max-width: 100%;
         height: auto;
         margin: 100px auto;
     }
@@ -1504,10 +1516,11 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        padding: 0 10px;
     }
 
     .img-logo {
-        width: 200px !important;
+        width: 180px !important;
         height: 150px !important;
     }
 
@@ -1665,7 +1678,7 @@
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .header {
-        max-width: 768px;
+        max-width: 100%;
         height: auto;
         margin: auto;
         background-repeat: no-repeat;
@@ -1740,7 +1753,7 @@
     }
 
     .header-title {
-        width: 400px;
+        max-width: 400px;
         height: 120px;
     }
 
@@ -1760,7 +1773,7 @@
     }
 
     .header-bottom {
-        width: 100%;
+        max-width: 100%;
         height: 150px;
         padding: 10px;
         position: relative;
@@ -1774,7 +1787,7 @@
     }
 
     .box-center {
-        width: 100%;
+        max-width: 100%;
         height: 50px;
         display: flex;
         justify-content: space-between;
@@ -1842,7 +1855,7 @@
     }
 
     .slide-show {
-        width: 100%;
+        max-width: 100%;
         height: 150px;
         margin: 40px auto;
         display: flex;
@@ -1911,24 +1924,24 @@
     }
 
     .box-img1 {
-        max-width: 440px;
+        max-width: 400px;
         height: 350px;
         border-radius: 10px;
     }
 
     .box-img1 img {
-        max-width: 440px;
+        max-width: 400px;
         height: auto;
         border-radius: 10px;
     }
 
     .box-desc {
-        max-width: 328px;
+        max-width: 320px;
         height: 350px;
     }
 
     .desc-container {
-        width: 100%;
+        max-width: 100%;
         height: 110px;
         display: flex;
         justify-content: space-between;
@@ -1944,7 +1957,7 @@
     }
 
     .desc-content {
-        max-width: 350px;
+        max-width: 280px;
         height: 100px;
     }
 
@@ -1968,21 +1981,22 @@
 
     .box-container1 {
         width: 100%;
-        height: auto;
+        height: 500px;
         margin: 50px auto;
         padding: 0 10px;
     }
 
     .box-content3 {
-        width: 100%;
+        max-width: 100%;
         height: auto;
         display: flex;
         justify-content: space-between;
     }
 
     .content-box {
-        max-width: 250px;
+        max-width: 220px;
         height: auto;
+        margin: 10px 0;
     }
 
     .content-box a {
@@ -1990,31 +2004,30 @@
     }
 
     .img-box img {
-        max-width: 250px;
+        max-width: 220px;
         height: auto;
         border-radius: 10px;
     }
 
     .title-box {
-        width: 100%;
-        height: 50px;
-        font-size: 30px;
+        width: 150px;
+        height: 30px;
+        font-size: 20px;
         display: flex;
-        margin: 0 10px;
     }
 
     .product-sao {
         display: flex;
-        height: 50px;
-        line-height: 25px;
+        height: 30px;
+        line-height: 0px;
         font-size: 12px;
-        margin: 10px 80px;
+        margin: 10px 30px;
     }
 
     .price {
         font-size: 20px;
         color: #959595;
-        padding: 0 10px;
+  
     }
 
     .icon-star svg {
@@ -2027,11 +2040,11 @@
     }
 
     .content-box1 {
-        width: 100%;
+        max-width: 100%;
         height: 200px;
-        margin: 50px 0;
+        margin-top: 50px;
         display: flex;
-        padding: 10px 10px;
+        padding: 0 10px;
         flex-direction: column;
     }
 
@@ -2049,13 +2062,13 @@
         height: 30px;
         background: #3D3D3D;
         color: #fff;
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 5px;
         border-radius: 10px;
     }
 
     .box-logo {
-        width: 100%;
+        max-width: 100%;
         height: auto;
         margin: 100px auto;
     }
@@ -2070,7 +2083,7 @@
     }
 
     .img-logo {
-        width: 200px !important;
+        width: 150px !important;
         height: 150px !important;
     }
 
@@ -2118,7 +2131,7 @@
     }
 
     .book-bottom {
-        width: 220px;
+        width: 200px;
         height: 30px;
         margin: 10px 15px;
         display: flex;
