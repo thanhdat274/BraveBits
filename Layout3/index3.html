@@ -1,26 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/index3.css">
-</head>
-<body>
-    <div id="wrapper">
-        <header>
-            <div class="header">
-                <div class="logo">
-                   <p><span>Stay</span> cation.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layout3</title>
+        <link rel="stylesheet" href="./css/index3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header class="header-content">
+                <div class="container">
+                    <div class="header">
+                        <div class="header-top">
+                            <div class="box-logo">
+                                <img src="./image/logo.png" alt="" class="logo">
+                            </div>
+                            <div class="menu-center">
+                                <div class="box-menu-top">
+                                    <nav>
+                                        <ul class="menu-top">
+                                            <li>
+                                                <a href="#" class="menu-item">
+                                                    <img src="./image/Call.png" alt="" class="icon-menu">
+                                                    <p>+ 420 000 000 000</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="menu-item">
+                                                    <img src="./image/Email.png" alt="" class="icon-menu">
+                                                    <p>+ 420 000 000 000</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="box-menu-bottom">
+                                    <nav>
+                                        <ul class="menu-bottom">
+                                            <li>
+                                                <a href="#" class="menu-item-bottom">Služby</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="menu-item-bottom">Naše projekty</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="menu-item-bottom">O nás</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="menu-item-bottom">Kontakty</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="header__box-right">
+                                <button class="nut">DOMLUVIT SCHŮZKU</button>
+                            </div>
+                        </div>
+                        <div class="header-center">
+                            <div class="header-title">
+                                <div class="box-header-title">
+                                    <p class="title">Czech Property Service - váš správce nemovitosti</p>
+                                    <p class="title1">NAUČÍME VAŠÍ NEMOVITOST VYDĚLÁVAT VÍCE</p>
+                                    <p class="title2">POJĎME DOMLUVIT SCHŮZKU</p>
+                                </div>
+                            </div>
+                            <div class="header-form">
+                                <div class="form">
+                                    <p class="title-form">Nezávazně se nám ozvěte</p>
+                                    <form>
+                                        <div class="box-form">
+                                            <label for="name">
+                                                Jmeno
+                                                <span>*</span>
+                                            </label>
+                                            <input
+                                                type="text"
+                                                name="name"
+                                                id="name"
+                                                class="form-control"
+                                            >
+                                        </div>
+                                        <div class="box-form">
+                                            <label for="phone">
+                                                Telefonní číslo
+                                                <span>*</span>
+                                            </label>
+                                            <input
+                                                type="text"
+                                                name="phone"
+                                                id="phone"
+                                                class="form-control"
+                                            >
+                                        </div>
+                                        <div class="box-form">
+                                            <label for="email">
+                                                Email
+                                                <span>*</span>
+                                            </label>
+                                            <input
+                                                type="text"
+                                                name="email"
+                                                id="email"
+                                                class="form-control"
+                                            >
+                                        </div>
+                                        <div>
+                                            <button class="submit">DOMLUVIT SCHŮZKU</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <nav>
-                    <ul>
-                        <li></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-    </div>
-</body>
+            </header>
+            <section class="box-content">
+                <div class="container">
+                    <div class="box">
+                        <div class="box-name">
+                            <h2 class="name1">ZVOLTE SI VLASTNÍ CESTU:</h2>
+                        </div>
+                        <div class="content-box">
+                            <div class="section-box">
+                                <h3 class="section-box_title">KOMPLETNÍ SPRÁVA NEMOVITOSTI</h3>
+                                <p class="section-box__desc">
+                                    Vaší nemovitost kompletně převezmeme. Postaráme se o
+                                prezentaci, správu rezervací, komunikací s hosty, úklidy, opravy i legislativu. Zkrátka
+                                o vše co je potřeba k tomu, aby nemovitost přinášlastabilní přijmy.
+                                </p>
+                                <button class="section-box__button">MÁM ZÁJEM</button>
+                            </div>
+                            <div class="section-box">
+                                <h3 class="section-box_title">DLOUHODOBÝ PRONÁJEM</h3>
+                                <p class="section-box__desc">
+                                    Staneme se vašim nájemcem klidně i na několik let. Platíme
+                                pravidelně a o objekty se pečlivě staráme. Vám zbývá jen přijímat měsíční rentu.
+                                </p>
+                                <button class="section-box__button">MÁM ZÁJEM</button>
+                            </div>
+                            <div class="section-box">
+                                <h3 class="section-box_title">ODKUP NEMOVITOSTI</h3>
+                                <p class="section-box__desc">
+                                    Vlastníte nemovitost v zajímavé lokalitě a hledáte kupce? Bude
+                                li to dávat smysl pro obě strany, vaši nemovitost rádi odkoupíme.
+                                </p>
+                                <button class="section-box__button">MÁM ZÁJEM</button>
+                            </div>
+                            <div class="section-box">
+                                <h3 class="section-box_title">VÝPOMOC SE SLUŽBOU UBYTOVATELE</h3>
+                                <p class="section-box__desc">
+                                    Bojujete s organizačními procesy? Pomůžeme vám se
+                                systematizací. Převezmeme správu rezervací, organizaci úklidů nebo pravidelných oprav.
+                                Používáme chytré programy, které vše velmi ulehčí a zpřehlední.
+                                </p>
+                                <button class="section-box__button">MÁM ZÁJEM</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="box-content">
+                <div class="container1">
+                    <div class="box1">
+                        <div class="box-name">
+                            <h2 class="name1">PROČ SPOLUPRACOVAT S NÁMI</h2>
+                        </div>
+                        <div class="content-box1">
+                            <div class="section-box1">
+                                <img src="./image/Men.png" alt="" class="section-box__img">
+                                <h3 class="section-box_title1">Silný organizační tým</h3>
+                                <p class="section-box__desc1">
+                                    Každý náš projekt má přiřazeného projektového manažera,
+                                propagačního manažera, opraváře, uklízeče, IT support a office manažera. Všichni přesně
+                                ví, co mají dělat.
+                                </p>
+                            </div>
+                            <div class="section-box1 section__box1">
+                                <img src="./image/Setting.png" alt="" class="section-box__img">
+                                <h3 class="section-box_title1">Chytré technologie</h3>
+                                <p class="section-box__desc1 box__desc1">
+                                    Rutinní práci automatizujeme a zefektyvňujme.
+                                Využíváme propracovaný booking systém, mobilní aplikaci, rozpočtový program a službu k
+                                efektivnímu rozdělování úkolů.
+                                </p>
+                            </div>
+                            <div class="section-box1 section__box2">
+                                <img src="./image/Star.png" alt="" class="section-box__img">
+                                <h3 class="section-box_title1">Letité zkušenosti</h3>
+                                <p class="section-box__desc1 box__desc2">
+                                    Dlouhodobě spravujeme 13 ubytoven po Praze a
+                                středočeském kraji. Dohlížíme na 10 kancelářských prostorů a v bytech i rodinných domech
+                                ubytováváme stabilně přes 45 lidí. Celkem se staráme o 27 objektů o příbližně 1 200
+                                lidech.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="box-content">
+                <div class="container">
+                    <div class="box2">
+                        <div class="box-name">
+                            <h2 class="name1">NAŠE PROJEKTY</h2>
+                        </div>
+                        <div class="content-box2">
+                            <div class="section_box2">
+                                <h3 class="section-box_title2">Ubytovna Benešov</h3>
+                                <img src="./image/anh-box1.png" alt="" class="section-box__img1">
+                                <p class="section-box__desc2">
+                                    Lorem Ipsum je demonstrativní výplňový text používaný v
+                                tiskařském
+                                a knihařském průmyslu. Lorem Ipsum je považováno za standard v této oblasti už od
+                                začátku
+                                16. století, kdy dnes neznámý tiskař vzal kusy textu a na jejich základě vytvořil
+                                speciální
+                                vzorovou knihu. Jeho odkaz nevydržel pouze pět století,
+                                </p>
+                            </div>
+                            <div class="section_box2">
+                                <h3 class="section-box_title2">Ubytovna Praha 5</h3>
+                                <img src="./image/anh-box2.png" alt="" class="section-box__img1">
+                                <p class="section-box__desc2">
+                                    Lorem Ipsum je demonstrativní výplňový text používaný v
+                                tiskařském
+                                a knihařském průmyslu. Lorem Ipsum je považováno za standard v této oblasti už od
+                                začátku
+                                16. století, kdy dnes neznámý tiskař vzal kusy textu a na jejich základě vytvořil
+                                speciální
+                                vzorovou knihu. Jeho odkaz nevydržel pouze pět století,
+                                </p>
+                            </div>
+                            <div class="section_box2">
+                                <h3 class="section-box_title2">Ubytovna okres Beroun</h3>
+                                <img src="./image/anh-box3.png" alt="" class="section-box__img1">
+                                <p class="section-box__desc2">
+                                    Lorem Ipsum je demonstrativní výplňový text používaný v
+                                tiskařském
+                                a knihařském průmyslu. Lorem Ipsum je považováno za standard v této oblasti už od
+                                začátku
+                                16. století, kdy dnes neznámý tiskař vzal kusy textu a na jejich základě vytvořil
+                                speciální
+                                vzorovou knihu. Jeho odkaz nevydržel pouze pět století,
+                                </p>
+                            </div>
+                            <div class="section_box2">
+                                <h3 class="section-box_title2">Ubytovna Neratovice</h3>
+                                <img src="./image/anh-box4.png" alt="" class="section-box__img1">
+                                <p class="section-box__desc2">
+                                    Lorem Ipsum je demonstrativní výplňový text používaný v
+                                tiskařském
+                                a knihařském průmyslu. Lorem Ipsum je považováno za standard v této oblasti už od
+                                začátku
+                                16. století, kdy dnes neznámý tiskař vzal kusy textu a na jejich základě vytvořil
+                                speciální
+                                vzorovou knihu. Jeho odkaz nevydržel pouze pět století,
+                                </p>
+                            </div>
+                            <button class="section-box__button1">Více projektů</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="box-content1">
+                <div class="container">
+                    <div class="box3">
+                        <div class="box-img">
+                            <img src="./image/logo 1.png" alt="" class="section-box__img2">
+                        </div>
+                        <div class="box-img">
+                            <img src="./image/logo-for-wix 1.png" alt="" class="section-box__img2">
+                        </div>
+                        <div class="box-img">
+                            <img src="./image/Group 16.png" alt="" class="section-box__img2">
+                        </div>
+                        <div class="box-img">
+                            <img src="./image/logo_cz_1 1.png" alt="" class="section-box__img2">
+                        </div>
+                        <div class="box-img">
+                            <img src="./image/Logo_Lora-úklid-3-e1607531755155 1.png" alt="" class="section-box__img2">
+                        </div>
+                        <div class="box-img">
+                            <img src="./image/SOLID-LogoVersions-ai 1.png" alt="" class="section-box__img2">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="box-content">
+                <div class="container">
+                    <div class="box4">
+                        <div class="box-name">
+                            <h2 class="name1">REFERENCES</h2>
+                        </div>
+                        <div class="content-box3">
+                            <div class="section_box3">
+                                <img src="./image/Group 18.png" alt="" class="section-box__img3">
+                                <p class="section-box__desc3">
+                                    Lorem Ipsum je demonstrativní výplňový text používaný v
+                                tiskařském a knihařském průmyslu. Lorem Ipsum je považováno za standard v této oblasti
+                                už od začátku 16.
+                                </p>
+                                <p class="section-box__title">Lorem Ipsum</p>
+                            </div>
+                            <div class="section_box3">
+                                <img src="./image/Group 18.png" alt="" class="section-box__img3">
+                                <p class="section-box__desc3">
+                                    Lorem Ipsum je demonstrativní výplňový text používaný v
+                                tiskařském a knihařském průmyslu. Lorem Ipsum je považováno za standard v této oblasti
+                                už od začátku 16.
+                                </p>
+                                <p class="section-box__title">Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="box-content">
+                <div class="container">
+                    <div class="section-content">
+                        <div class="content-wrapper">
+                            <div class="section-box4">
+                                <img src="./image/Group 20.png" alt="" class="section-box__img4">
+                            </div>
+                            <div class="section-box5">
+                                <p class="section-box__title4">STÁLE JSTE NA VÁŽKÁCH? POJĎME SE SEJÍT A PROBRAT VŠE OSOBNĚ</p>
+                                <button class="section-box__button5">DOMLUVIT SCHŮZKU</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="section-footer">
+                <div class="container">
+                    <div class="footer-wrapper">
+                        <div class="footer-top">
+                            <div class="footer-logo">
+                                <img src="./image/logo.png" alt="" class="footer-img">
+                            </div>
+                            <div class="footer-content">
+                                <div class="footer-box">
+                                    <div class="footer-contact">
+                                        <h3 class="footer-title">Rychlý kontakt</h3>
+                                        <ul class="footer-list">
+                                            <li class="footer-item">
+                                                <img src="./image/Call.png" alt="" class="icon-menu">
+                                                <p class="footer-desc">+420 000 000 000</p>
+                                            </li>
+                                            <li class="footer-item">
+                                                <img src="./image/Email.png" alt="" class="icon-menu">
+                                                <p class="footer-desc">+420 000 000 000</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-payment">
+                                        <h3 class="footer-title">
+                                            Fakturační údaje:
+                                        </h3>
+                                        <p class="footer-desc">
+                                            CZECH PROPERTY SERVICE, S. R. O.
+                                        </p>
+                                        <p class="footer-desc">
+                                            Na Plzeňce 1166/4
+                                        </p>
+                                        <p class="footer-desc">
+                                            Praha 5 – Smíchov 150 00
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="footer-box">
+                                    <div class="footer-navigace">
+                                        <h3 class="footer-title">
+                                            NAVIGACE
+                                        </h3>
+                                        <ul class="footer-list">
+                                            <li class="footer-item">
+                                                <a href="#" class="footer__link" target="_blank">Služby</a>
+                                            </li>
+                                            <li class="footer-item">
+                                                <a href="#" class="footer__link" target="_blank">Naše projekty</a>
+                                            </li>
+                                            <li class="footer-item">
+                                                <a href="#" class="footer__link" target="_blank">O nás</a>
+                                            </li>
+                                            <li class="footer-item">
+                                                <a href="#" class="footer__link" target="_blank">Kontakty</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class=""></div>
+                                </div>
+                                <div class="footer-box">
+                                    <div class="footer__data">
+                                        <h3 class="footer-title">
+                                            UŽITEČNÉ ODKAZY
+                                        </h3>
+                                        <ul class="footer-list">
+                                            <li class="footer-item">
+                                                <a href="#" class="footer__link" target="_blank">Cookies</a>
+                                            </li>
+                                            <li class="footer-item">
+                                                <a href="#" class="footer__link" target="_blank">Nakládání s osobními údaji</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer__social">
+                                        <a href="#" class="footer__link" target="_blank">
+                                            <img src="./image/linkedin.png" alt="Linkein" class="footer__img">
+                                        </a>
+                                        <a href="#" class="footer__link" target="_blank">
+                                            <img src="./image/inta.png" alt="insta" class="footer__img">
+                                        </a>
+                                        <a href="#" class="footer__link" target="_blank">
+                                            <img src="./image/face.png" alt="facebook" class="footer__img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <p class="footer__end">Všechna práva vyhrazena 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
