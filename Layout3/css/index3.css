@@ -95,10 +95,10 @@
 }
 
 .icon-menu-none {
+    display: none;
     margin: auto 0;
     font-size: 30px;
     padding-right: 20px;
-    display: none;
 }
 
 .box-menu-top-mobile {
@@ -200,7 +200,7 @@
 }
 
 .title {
-    width: 50%;
+    width: 300px;
     min-height: 45px;
     font-size: var(--font-size20);
     font-weight: 500;
@@ -245,7 +245,6 @@
     font-weight: 500;
     letter-spacing: 4.5px;
 }
-
 
 /* phần css form */
 .header-form {
@@ -339,6 +338,7 @@ span {
     min-height: 90px;
     font-size: var(--font-size30);
     font-weight: 500;
+    line-height: 35px;
     letter-spacing: 4.5px;
     padding-right: 50px;
 }
@@ -348,13 +348,10 @@ span {
     max-width: 85%;
     min-height: 120px;
     font-size: var(--font-size20);
-    font-weight: 400;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+    line-height: 28px;
 }
 
 .section-box__button {
-
     min-height: 50px;
     background: var(--background-color714);
     color: #fff;
@@ -433,7 +430,6 @@ span {
     padding-right: 45px;
 }
 
-
 /* phần box tiếp theo */
 .box2 {
     width: 100%;
@@ -474,7 +470,7 @@ span {
 }
 
 .section-box_title2 {
-    height: 35px;
+    min-height: 35px;
     font-weight: 500;
     font-size: var(--font-size30);
     line-height: 35px;
@@ -573,7 +569,6 @@ span {
 }
 
 .section-box__title {
-    font-weight: 500;
     font-size: var(--font-size30);
     line-height: 35px;
     letter-spacing: 0.15em;
@@ -581,7 +576,6 @@ span {
 }
 
 /* Phần box tiếp theo */
-
 .section-content {
     width: 100%;
     height: auto;
@@ -615,7 +609,7 @@ span {
 
 .section-box__title4 {
     font-weight: 500;
-    font-size: 60px;
+    font-size: var(--font-size60);
     line-height: 70px;
     letter-spacing: 0.15em;
     color: #000000;
