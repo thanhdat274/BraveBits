@@ -1,0 +1,4 @@
+- cách tính line-height là lấy  line-height chia font size
+
+- cách tính letter-spacing là lấy letter-spacing phần trăm nhân font size chia 100
+
