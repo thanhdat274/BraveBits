@@ -161,7 +161,6 @@
     line-height: 2;
 }
 
-
 .menu-item-bottom {
     display: flex;
     font-size: var(--font-size25);
@@ -354,8 +353,10 @@ span {
 .section-box__desc {
     width: 100%;
     max-width: 85%;
+    font-weight: 400;
     min-height: 120px;
     font-size: var(--font-size20);
+    letter-spacing: 2px;
     line-height: 28px;
 }
 
@@ -577,6 +578,7 @@ span {
 }
 
 .section-box__title {
+    font-weight: 500;
     font-size: var(--font-size30);
     line-height: 35px;
     letter-spacing: 0.15em;
@@ -595,11 +597,11 @@ span {
     width: 100%;
     display: grid;
     grid-template-columns: auto auto;
-    gap: 72px;
+    gap: 62px;
 }
 
 .section-box4 {
-    width: 498px;
+    width: 488px;
     height: auto;
 }
 
@@ -613,6 +615,7 @@ span {
     margin-top: 180px;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 .section-box__title4 {
@@ -621,7 +624,6 @@ span {
     line-height: 70px;
     letter-spacing: 0.15em;
     color: #000000;
-    margin-bottom: 82px;
 }
 
 .section-box__button5 {
@@ -656,7 +658,6 @@ span {
     background-color: var(--background-color165);
     transform: rotate(5.92deg);
 }
-
 
 /* phần footer */
 .section-footer {
