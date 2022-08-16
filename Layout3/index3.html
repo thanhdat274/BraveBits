@@ -53,12 +53,35 @@
                                         </li>
                                         <li class="menu-item">
                                             <a href="#" class="menu-item-bottom">Naše projekty</a>
+
                                         </li>
                                         <li class="menu-item">
                                             <a href="#" class="menu-item-bottom">O nás</a>
+                                            <ul class="sub-menu">
+                                                <li class="sub-menu-item">
+                                                    <a href="#">About us</a>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <a href="#">About us</a>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <a href="#">About us</a>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li class="menu-item">
                                             <a href="#" class="menu-item-bottom">Kontakty</a>
+                                            <ul class="sub-menu">
+                                                <li class="sub-menu-item">
+                                                    <a href="#">Contact us</a>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <a href="#">Contact us</a>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <a href="#">Contact us</a>
+                                                </li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </nav>
@@ -102,13 +125,14 @@
                         <div class="header-form">
                             <div class="form">
                                 <p class="title-form">Nezávazně se nám ozvěte</p>
-                                <form>
+                                <form action="" onsubmit="return validateForm()">
                                     <div class="box-form">
                                         <label for="name">
                                             Jmeno
                                             <span>*</span>
                                         </label>
                                         <input type="text" name="name" id="name" class="form-control">
+                                        <span id="error"></span>
                                     </div>
                                     <div class="box-form">
                                         <label for="phone">
@@ -116,6 +140,7 @@
                                             <span>*</span>
                                         </label>
                                         <input type="text" name="phone" id="phone" class="form-control">
+                                        <span id="error1"></span>
                                     </div>
                                     <div class="box-form">
                                         <label for="email">
@@ -123,9 +148,10 @@
                                             <span>*</span>
                                         </label>
                                         <input type="email" name="email" id="email" class="form-control">
+                                        <span id="error2"></span>
                                     </div>
                                     <div>
-                                        <button class="submit">DOMLUVIT SCHŮZKU</button>
+                                        <button  class="submit">DOMLUVIT SCHŮZKU</button>
                                     </div>
                                 </form>
                             </div>
