@@ -9,9 +9,14 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.1.0-beta3/css/all.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.1.0-beta3/css/all.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
     <link rel="stylesheet" href="./css/pagefly.css">
+    <link rel="stylesheet" href="./css/responéive.css">
 
 </head>
 
@@ -46,6 +51,10 @@
                         <div class="header-buttom">
                             <button>Try PageFly Free</button>
                         </div>
+                    </div>
+
+                    <div id="btn-menu" class="icon-menu-none">
+                        <i class="fa-solid fa-bars"></i>
                     </div>
                 </div>
             </div>
@@ -160,41 +169,67 @@
             <div class="container">
                 <div class="box2">
                     <div class="box-section2-heading">
-                        <h2>Quick start with 70+ high-converting templates</h2>
+                        <h2 class="heading">Quick start with 70+ high-converting templates</h2>
+                        <h2 class="heading1">Our Templates</h2>
+
+                        <div class="box-section2-bottom-none">
+                            <button>Browse all 70+ templates</button>
+                        </div>
                     </div>
-                    
-                    
                     <!-- phàn slider -->
-                    <div class="box-section2-slide">
-                        <div class="box-section2-center">
-                            <div class="section2-item">
-                                <img src="./image/_card-cover.png" alt="">
-                                <p>Levy</p>
+                    <div class="box-section2-slide wiper mySwiper">
+                        <div class="box-section2-center swiper-wrapper">
+                            <div class="section2-item swiper-slide">
+                                <div class="">
+                                    <img src="./image/_card-cover.png" alt="">
+                                </div>
+                                <div class="item-desc">
+                                    <h3>Levy</h3>
+                                    <p>View demo • Try this template</p>
+                                </div>
                             </div>
-                            <div class="section2-item">
+                            <div class="section2-item swiper-slide">
                                 <img src="./image/_card-cover1.png" alt="">
-                                <p>Chloe</p>
+
+                                <div class="item-desc">
+                                    <h3>Chloe</h3>
+                                    <p>View demo • Try this template</p>
+                                </div>
                             </div>
-                            <div class="section2-item">
+                            <div class="section2-item swiper-slide">
                                 <img src="./image/_card-cover2.png" alt="">
-                                <p>Lista</p>
+                                <div class="item-desc">
+                                    <h3>Lista</h3>
+                                    <p>View demo • Try this template</p>
+                                </div>
                             </div>
-                            <div class="section2-item">
-                                <img src="./image/_card-cover2.png" alt="">
-                                <p>Lista</p>
+                            <div class="section2-item swiper-slide">
+                                <img src="./image/_card-cover.png" alt="">
+                                <div class="item-desc">
+                                    <h3>Levy</h3>
+                                    <p>View demo • Try this template</p>
+                                </div>
                             </div>
-                            <div class="section2-item">
-                                <img src="./image/_card-cover2.png" alt="">
-                                <p>Lista</p>
+                            <div class="section2-item swiper-slide">
+                                <img src="./image/_card-cover1.png" alt="">
+
+                                <div class="item-desc">
+                                    <h3>Chloe</h3>
+                                    <p>View demo • Try this template</p>
+                                </div>
                             </div>
-                            <div class="section2-item">
+                            <div class="section2-item swiper-slide">
                                 <img src="./image/_card-cover2.png" alt="">
-                                <p>Lista</p>
+                                <div class="item-desc">
+                                    <h3>Lista</h3>
+                                    <p>View demo • Try this template</p>
+                                </div>
                             </div>
                         </div>
-                        <!-- <div class="box-section2-icon-slide">
-                            <img src="./image/slide-pagination.png" alt="">
-                        </div> -->
+
+                        <div class="box-section2-icon-slide">
+                            <div class="swiper-pagination"></div>
+                        </div>
                     </div>
                     <!-- ====================== -->
 
@@ -230,7 +265,8 @@
                             </div>
 
                             <div class="box-section3-bottom">
-                                <button>Button</button>
+                                <button class="button">Button</button>
+                                <button class="button-none">See PageFly pricing</button>
                             </div>
                         </div>
 
@@ -271,7 +307,8 @@
                             </div>
 
                             <div class="box-section4-bottom">
-                                <button>Button</button>
+                                <button class="button">Button</button>
+                                <button class="button-none">Check our demo store</button>
                             </div>
                         </div>
                     </div>
@@ -898,13 +935,13 @@
         </footer>
     </div>
 
-    
-
     <!-- slick slider -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./js/pagefly.js"></script>thanhdat2704
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/pagefly.js"></script>
 
 </body>
 
