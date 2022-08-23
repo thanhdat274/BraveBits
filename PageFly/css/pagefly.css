@@ -101,7 +101,7 @@
   background-color: #fff;
   font-size: 14px;
   color: #5555FF;
-  font-family: 'SF Pro Text';
+  font-family: 'SF Pro Text', sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -150,7 +150,7 @@
 }
 
 .sub-title {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -165,9 +165,12 @@
   background: #FAFAFA;
   border-radius: 5px;
   display: flex;
-  gap: 40px;
   align-items: center;
   justify-content: space-between;
+}
+
+.rank-section{
+  width: 110px;
 }
 
 .rank-title {
@@ -179,7 +182,7 @@
 }
 
 .rank-sub-title {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -193,7 +196,7 @@
 
 .section-button,
 .box-section7-bottom button {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -207,7 +210,7 @@
 }
 
 .bottom-title {
-  font-family: 'SF Pro Text';
+  font-family: 'SF Pro Text', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -302,7 +305,7 @@
 }
 
 .item-content p {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -330,9 +333,13 @@
 .box2,
 .box8,
 .box12 {
-  flex: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.box2{
+  overflow: hidden;
 }
 
 .box-section2-heading h2 {
@@ -340,6 +347,7 @@
   font-size: 44px;
   line-height: 56px;
   color: rgba(255, 255, 255);
+  margin-bottom: 48px;
 }
 
 .heading1 {
@@ -347,20 +355,18 @@
 }
 
 .box-section2-slide {
-  width: 100%;
+  width: 1190px;
   height: auto;
-  margin: 48px 0 108px 0;
+  margin: 0 -20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
 }
 
 .box-section2-center {
   width: 100%;
   height: auto;
   display: flex;
-  gap: 40px;
   margin-bottom: 48px;
 }
 
@@ -371,6 +377,7 @@
   flex-direction: column;
   border: 1px solid #F0F0F0;
   border-radius: 2px;
+  margin: 0 20px;
 }
 
 .section2-item img {
@@ -392,7 +399,7 @@
 }
 
 .section2-item p {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -402,7 +409,7 @@
 }
 
 .box-section2-icon-slide {
-  width: 84px;
+  width: 100%;
   height: 12px;
 }
 
@@ -416,9 +423,7 @@
 .swiper-slide-next,
 .swiper-slide-prev {
   width: 357px !important;
-  margin-right: 0px !important;
   height: 268px;
-  background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -465,7 +470,7 @@
 }
 
 .box-section2-bottom {
-  margin: auto;
+  margin: 108px auto 0 auto;
 }
 
 .box-section2-bottom-none button {
@@ -479,7 +484,7 @@
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
   border-radius: 2px;
   border: 0;
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -544,7 +549,7 @@
 
 .section3-item p,
 .section4-item p {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -568,7 +573,7 @@
   border-radius: 2px;
   color: #FFFFFF;
   border: 0;
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -690,7 +695,7 @@
   border-radius: 2px;
   color: #FFFFFF;
   border: 0;
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -740,7 +745,7 @@
 }
 
 .item6-content p {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -750,7 +755,7 @@
 }
 
 .item6-content button {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -817,7 +822,7 @@
 }
 
 .item1 p {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -834,7 +839,7 @@
 }
 
 .item1-month {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -866,7 +871,7 @@
 
 .item-menu a,
 .item-menu span {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -888,7 +893,7 @@
 }
 
 .box-section7-bottom p {
-  font-family: 'SF Pro Text';
+  font-family: 'SF Pro Text', sans-serif;;
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
@@ -955,7 +960,7 @@
 }
 
 .section8-item p {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -973,7 +978,7 @@
 
 /* phần box-section9 */
 .box-section9-heading p {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -1015,7 +1020,7 @@
 }
 
 .item9-job-position {
-  font-family: 'SF Pro Text';
+  font-family: 'SF Pro Text', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1025,7 +1030,7 @@
 }
 
 .item9-desc {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1041,7 +1046,7 @@
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
   border-radius: 2px;
   border: 0;
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1052,7 +1057,7 @@
 /* phần box-section10 */
 .box-section10-heading h3 {
   margin-top: 20px;
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1099,7 +1104,7 @@
 }
 
 .section10-item p {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1114,7 +1119,7 @@
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
   border-radius: 2px;
   border: 0;
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1141,7 +1146,7 @@
 
 .box-section11-button button {
   margin-top: 40px;
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -1205,7 +1210,7 @@
 }
 
 .footer-item__title p {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1231,7 +1236,7 @@
 }
 
 .menu-footer-item a {
-  font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1251,7 +1256,7 @@
 }
 
 .box-footer-bottom p {
-  font-family: 'SF Pro Text';
+  font-family: 'SF Pro Text', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
