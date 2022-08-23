@@ -22,6 +22,7 @@
   max-width: 1152px;
   height: auto;
   margin: auto;
+  padding-inline: 15px;
 }
 
 .container1 {
@@ -29,6 +30,7 @@
   max-width: 1392px;
   height: auto;
   margin: auto;
+  padding-inline: 15px;
 }
 
 /* phần header */
@@ -660,7 +662,7 @@
 .section5-item {
   width: 100%;
   display: flex;
-  gap: 32px;
+  gap: 0 32px;
   padding-left: 100px;
   margin-bottom: 32px;
 }
@@ -668,12 +670,12 @@
 .section5-item1 {
   width: 100%;
   display: flex;
-  gap: 32px;
+  gap: 0 32px;
 }
 
 .section5-image {
-  /* width: 132px;
-  height: 132px; */
+  width: 132px;
+  height: 132px;
   background: #FFFFFF;
   border: 1px solid #F0F0F0;
   border-radius: 4px;
@@ -682,6 +684,7 @@
 
 .section5-image img {
   width: 84px;
+  height: 84px;
 }
 
 .box-section5-bottom {
@@ -1111,6 +1114,7 @@
   line-height: 24px;
   text-align: center;
   color: rgba(0, 0, 0, 0.85);
+  padding: 0 15px;
 }
 
 .section10-button button {
