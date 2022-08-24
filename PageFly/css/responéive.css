@@ -149,11 +149,6 @@
     margin-bottom: 4px;
   }
 
-  /* phần box-section1-bottom */
-  .box-section1-bottom {
-    justify-content: center;
-  }
-
   /* phần box-section2 */
   .box-section2 {
     padding-block: 60px 80px;
@@ -733,10 +728,6 @@
     margin-bottom: 4px;
   }
 
-  /* phần box-section1-bottom */
-  .box-section1-bottom {
-    justify-content: center;
-  }
 
   /* phần box-section2 */
   .box-section2 {

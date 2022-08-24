@@ -22,7 +22,7 @@
   max-width: 1152px;
   height: auto;
   margin: auto;
-  padding-inline: 15px;
+  /* padding-inline: 15px; */
 }
 
 .container1 {
@@ -30,7 +30,7 @@
   max-width: 1392px;
   height: auto;
   margin: auto;
-  padding-inline: 15px;
+  /* padding-inline: 15px; */
 }
 
 /* phần header */
@@ -127,7 +127,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 /* phần box left */
@@ -271,7 +271,8 @@
 .box-section1-center {
   width: 100%;
   height: auto;
-  margin: 80px 0;
+  margin-top: 80px;
+  gap: 80px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -312,15 +313,6 @@
   font-size: 16px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.85);
-}
-
-/* phần box-section1-bottom */
-.box-section1-bottom {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 /* phần box-section2 */
@@ -721,6 +713,7 @@
   display: flex;
   margin-top: 80px;
   justify-content: space-between;
+  gap: 0 40px;
 }
 
 .section6-item,
@@ -869,19 +862,19 @@
 }
 
 .icon-menu {
-  padding-left: 5px;
+  /* padding-left: 5px; */
+  padding-right: 0px !important;
 }
 
 .item-menu a,
-.item-menu span {
-  font-family: 'SF Pro Display', sans-serif;;
+.item-menu span,
+.item-menu p {
+  font-family: 'SF Pro Display', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.85);
   text-decoration: none;
-  display: flex;
-  align-items: center;
 }
 
 .box-section7-bottom {
@@ -1003,6 +996,7 @@
 
 .item9-image {
   width: 100%;
+  max-width: 357.33px;
   height: auto;
 }
 
@@ -1091,6 +1085,7 @@
   margin: 60px 0;
   display: flex;
   justify-content: space-between;
+  gap: 0 40px;
 }
 
 .section10-item {
