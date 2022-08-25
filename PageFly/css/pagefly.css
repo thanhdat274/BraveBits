@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('../font/FontsFree-Net-SFProDisplay-Bold.ttf');
-@import url('../font/FontsFree-Net-SFProDisplay-Regular-1.ttf');
-@import url('../font/FontsFree-Net-SFProText-Regular.ttf');
-
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +7,8 @@
 }
 
 :root {
-  --fontSFProText: 'SF Pro Text', sans-serif;
-  --fontSFProDisplay: 'SF Pro Display', sans-serif;
+  --fontSFProText: 'SF Pro Text';
+  --fontSFProDisplay: 'SF Pro Display';
   --fontWeight600: 600;
   --fontWeight400: 400;
 
@@ -47,9 +43,37 @@
   --background5ff: #5555FF;
 }
 
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../font/SFProText-Regular.woff2') format('woff2'),
+    url('../font/SFProText-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../font/SFProDisplay-Regular.woff2') format('woff2'),
+    url('../font/SFProDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../font/SFProDisplay-Bold.woff2') format('woff2'),
+    url('../font/SFProDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -68,7 +92,7 @@ body {
 }
 
 button {
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: 'SF Pro Display';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -84,7 +108,7 @@ p,
 .menu-footer-item a,
 .item-menu a,
 .item-menu span {
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: 'SF Pro Display';
   font-style: normal;
   font-weight: 400;
   font-size: var(--fontSize16);
