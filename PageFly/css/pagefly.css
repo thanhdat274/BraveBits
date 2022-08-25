@@ -434,7 +434,7 @@ p,
 }
 
 .box2 {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .box-section2-heading h2 {
@@ -454,13 +454,10 @@ p,
   width: 1190px;
   height: auto;
   margin: 0 -20px;
-  /* display: flex; */
   padding-bottom: 60px;
 }
 
 .section2-item {
-  width: 358px;
-  height: 268px;
   display: flex;
   flex-direction: column;
   border: 1px solid #F0F0F0;

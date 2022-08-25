@@ -10,13 +10,13 @@ $(document).ready(function () {
     dots: true,
     responsive: [
       {
-        breakpoint: 1025,
+        breakpoint: 1050,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 739,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 2,
@@ -25,8 +25,8 @@ $(document).ready(function () {
         },
       },
     ],
-    // autoplay: true,
-    // autoplaySpeed: 1000,
+    autoplay: true,
+    autoplaySpeed: 5000,
   });
 });
 

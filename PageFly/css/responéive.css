@@ -150,6 +150,10 @@
   }
 
   /* phần box-section2 */
+  .box2 {
+    overflow-x: hidden;
+  }
+
   .box-section2 {
     padding-block: 60px 80px;
   }
@@ -176,19 +180,20 @@
     margin-top: 24px;
   }
 
-  .section2-item {
-    width: 335px !important;
-    height: 264px;
-  }
-
   .box-section2-slide {
     width: 100%;
     height: auto;
-    margin: 48px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
+    margin: 48px -20px 0 -20px;
+    padding-bottom: 60px;
+  }
+
+  .section2-item {
+    width: 340px !important;
+  }
+
+  .item-img {
+    width: 100%;
+    height: auto;
   }
 
   .item-desc {
@@ -196,12 +201,12 @@
     padding: 20px 24px;
   }
 
-  .section2-item h3 {
+  .item-desc h3 {
     font-size: 18px;
     line-height: 26px;
   }
 
-  .section2-item p {
+  .item-desc p {
     display: block;
   }
 
