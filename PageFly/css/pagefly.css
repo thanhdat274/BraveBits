@@ -89,8 +89,8 @@ body {
 
 .heading h2 {
   font-weight: 600;
-  font-size: 44px;
-  line-height: 56px;
+  font-size: var(--fontSize44);
+  line-height: var(--line-height56);
 }
 
 .text-center {
@@ -105,8 +105,8 @@ button {
   font-family: 'SF Pro Display';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: var(--fontSize16);
+  line-height: var(--line-height24);
   color: #FFFFFF;
   background: #5555FF;
   border: 1px solid #5555FF;
@@ -118,11 +118,11 @@ p,
 .menu-footer-item a,
 .item-menu a,
 .item-menu span {
-  font-family: 'SF Pro Display';
+  font-family: var(--fontSFProDisplay);
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--fontWeight400);
   font-size: var(--fontSize16);
-  line-height: 24px;
+  line-height: var(--line-height24);
 }
 
 #wrapper {
@@ -171,11 +171,6 @@ p,
 
 /* phần menu  */
 .box-menu {
-  width: 524px;
-  height: 50px;
-}
-
-.menu-bxx{
   width: 524px;
   height: 50px;
 }
@@ -237,7 +232,8 @@ p,
   top: 10px;
   left: 35px;
   font-size: 11px;
-  font-family: 'SF Pro Text';
+  font-weight: var(--fontWeight400);
+  font-family: var(--fontSFProText);
 }
 
 input[type="text"] {
@@ -611,7 +607,7 @@ input[type="text"] {
 
 .box-section2-bottom button,
 .box-section2-bottom-none button {
-  padding: 12px 27px;
+  padding: 12px 24px;
 }
 
 .box-section2-bottom button:hover {
@@ -683,7 +679,7 @@ input[type="text"] {
 
 .box-section3-bottom button,
 .box-section4-bottom button {
-  padding: 12px 24.8px;
+  padding: 12px 24px;
 }
 
 .box-section3-bottom button:hover,
@@ -1117,7 +1113,7 @@ input[type="text"] {
 
 .box-section9-bottom button {
   margin-top: 60px;
-  padding: 12px 26.5px;
+  padding: 12px 24px;
 }
 
 .box-section9-bottom button:hover {
@@ -1183,7 +1179,7 @@ input[type="text"] {
 }
 
 .section10-button button {
-  padding: 12px 22px;
+  padding: 12px 24px;
 }
 
 .section10-button button:hover {
@@ -1211,7 +1207,7 @@ input[type="text"] {
 
 .box-section11-button button {
   margin-top: 40px;
-  padding: 12px 21px;
+  padding: 12px 24px;
 }
 
 .box-section11-button button:hover {

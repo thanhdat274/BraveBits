@@ -10,10 +10,6 @@
 
   /* phần .header */
   /* phần .menu */
-  .menu-box{
-    display: none;
-  }
-  
   .menu {
     width: 100%;
     height: auto;
@@ -81,6 +77,8 @@
   }
 
   .box-section-left {
+    flex: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,7 +90,8 @@
   }
 
   .sub-title {
-    width: 295px;
+    width: 100%;
+    max-width: 295px;
     margin: 0 auto;
   }
 
@@ -365,7 +364,9 @@
     height: auto;
     text-align: center;
   }
-
+  .item6-image{
+    height: auto;
+  }
   .item6-image img {
     margin-bottom: 16px;
     width: 100%;
@@ -451,6 +452,10 @@
   }
 
   /* phần box-section8 */
+  .section8-item{
+    height: auto;
+  }
+
   .box-section8-heading h2 {
     font-size: 32px;
     line-height: 40px;
