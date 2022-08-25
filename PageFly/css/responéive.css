@@ -10,6 +10,10 @@
 
   /* phần .header */
   /* phần .menu */
+  .menu-box{
+    display: none;
+  }
+  
   .menu {
     width: 100%;
     height: auto;
@@ -733,7 +737,6 @@
     margin-bottom: 4px;
   }
 
-
   /* phần box-section2 */
   .box-section2 {
     padding-block: 60px 80px;
@@ -846,7 +849,6 @@
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
     border-radius: 2px;
   }
-
 
   /* phần .box-section7 */
   .box-section7-content {

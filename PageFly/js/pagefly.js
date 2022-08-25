@@ -37,3 +37,16 @@ btn.addEventListener('click', function () {
   menu.classList.toggle("show")
   console.log("ahihihi");
 })
+
+let menu1 = document.querySelector('.menu-bxx')
+let search = document.querySelector('.search')
+let btnMenu = document.querySelector('.search-box')
+btnMenu.onclick = function () {
+  console.log('1233');
+  var isOpen = search.style.display === 'block'
+  if (isOpen) {
+    search.style.display = null
+  } else {
+    search.style.display = 'block'
+  }
+}
