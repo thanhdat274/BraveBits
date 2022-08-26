@@ -495,6 +495,7 @@ input[type="text"] {
 .box-section2-slide {
   width: 1190px;
   height: auto;
+  display: flex;
   margin: 0 -20px;
   padding-bottom: 60px;
 }
@@ -549,6 +550,10 @@ input[type="text"] {
 .slick-arrow:hover {
   background-color: #2cccff;
   color: white;
+}
+
+.slick-track{
+  display: flex;
 }
 
 .slick-slide {

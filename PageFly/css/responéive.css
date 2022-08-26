@@ -143,7 +143,14 @@
   }
 
   .item-icon {
+    width: 48px;
+    height: 45px;
     margin-right: 20px;
+  }
+
+  .item-icon img {
+    width: 48px;
+    height: 45px;
   }
 
   .item-content h3 {
@@ -186,6 +193,7 @@
   .box-section2-slide {
     width: 100%;
     height: auto;
+    display: flex;
     margin: 48px -20px 0 -20px;
     padding-bottom: 60px;
   }
@@ -364,9 +372,11 @@
     height: auto;
     text-align: center;
   }
-  .item6-image{
+
+  .item6-image {
     height: auto;
   }
+
   .item6-image img {
     margin-bottom: 16px;
     width: 100%;
@@ -452,7 +462,7 @@
   }
 
   /* phần box-section8 */
-  .section8-item{
+  .section8-item {
     height: auto;
   }
 
