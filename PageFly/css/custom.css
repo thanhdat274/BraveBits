@@ -1,0 +1,57 @@
+:root {
+  --fontSFProText: 'SF Pro Text';
+  --fontSFProDisplay: 'SF Pro Display';
+  --fontWeight600: 600;
+  --fontWeight400: 400;
+
+  /* phần font-size */
+  --fontSize56: 3.5rem;
+  --fontSize44: 2.75rem;
+  --fontSize28: 1.75rem;
+  --fontSize20: 1.25rem;
+  --fontSize18: 1.125rem;
+  --fontSize16: 1rem;
+  --fontSize14: 0.875rem;
+  --fontSize12: 0.75rem;
+
+  /* phần line-height */
+  /* --line-height64: 64px;
+  --line-height56: 56px;
+  --line-height36: 36px;
+  --line-height28: 28px;
+  --line-height22: 22px;
+  --line-height24: 24px;
+  --line-height20: 20px; */
+
+  /* phần màu chữ */
+  --color85: rgba(0, 0, 0, 0.85);
+  --color45: rgba(0, 0, 0, 0.45);
+  --color255: rgba(255, 255, 255);
+  --color55FF: #5555FF;
+  --colorFFF: #FFFFFF;
+
+  --background2FF: #F0F2FF;
+  --background942: #110942;
+  --backgroundfff: #FFFFFF;
+  --background5ff: #5555FF;
+}
+
+.block-title {
+  font-weight: var(--fontWeight600);
+  font-size: var(--fontSize20);
+  line-height: 1.4; 
+  /* 28px */
+  color: var(--color85);
+}
+
+.block-sub-title{
+  font-size: var(--fontSize16);
+  font-weight: var(--fontWeight400);
+  line-height: 1.5;
+  /* 24px */
+  color: var(--color45);
+}
+
+.color-light {
+  color: var(--color-light);
+}

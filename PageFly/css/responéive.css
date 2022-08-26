@@ -74,6 +74,7 @@
     align-items: center;
     text-align: center;
     justify-items: center;
+    gap: 40px 0;
   }
 
   .box-section-left {
@@ -291,8 +292,8 @@
 
   /* phần box-section4 */
   .section4-item h3 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 26px;
   }
 
   /* phần box-section5 */
@@ -381,7 +382,7 @@
     width: 100%;
   }
 
-  .item6-content h3 {
+  .block-title {
     font-size: 18px;
     line-height: 26px;
     margin-bottom: 4px;
