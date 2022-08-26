@@ -500,7 +500,6 @@ input[type="text"] {
 .section2-item {
   display: flex;
   flex-direction: column;
-  border: 1px solid #F0F0F0;
   border-radius: 2px;
   margin: 0 20px;
 }
@@ -760,7 +759,6 @@ input[type="text"] {
   width: 132px;
   height: 132px;
   background: var(--backgroundfff);
-  border: 1px solid #F0F0F0;
   border-radius: 4px;
   padding: 24px;
 }
@@ -985,7 +983,6 @@ input[type="text"] {
   height: 268px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #F0F0F0;
   border-radius: 2px;
 }
 
@@ -1022,7 +1019,6 @@ input[type="text"] {
 .section9-item {
   height: auto;
   background: var(--backgroundfff);
-  border: 1px solid #F0F0F0;
   border-radius: 2px;
 }
 
