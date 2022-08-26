@@ -111,6 +111,7 @@ button {
   background: #5555FF;
   border: 1px solid #5555FF;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 p,
@@ -227,19 +228,13 @@ p,
   font-size: 12px;
 }
 
-.__placeholder {
-  position: absolute;
-  top: 10px;
-  left: 35px;
-  font-size: 11px;
-  font-weight: var(--fontWeight400);
-  font-family: var(--fontSFProText);
-}
-
 input[type="text"] {
   width: 100%;
   height: 30px;
   border: 1px solid #2cccff;
+  padding-left: 30px;
+  border-radius: 10px;
+  outline: none;
 }
 
 .search-box {
