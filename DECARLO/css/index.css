@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: lato, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#wrapper{
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.container{
+  width: 100%;
+  max-width: 1340px;
+  height: auto;
+  margin: 0 auto;
+  background-color: blue;
+}
+
+.header{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
