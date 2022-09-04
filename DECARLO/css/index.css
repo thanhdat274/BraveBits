@@ -466,11 +466,156 @@ img {
   height: 40px;
   margin-bottom: 30px;
 }
+
 .box-item h2 {
   margin-bottom: 5px;
 }
+
 .title5 {
   color: #84848E;
   letter-spacing: 0px;
   margin-bottom: 30px;
+}
+
+/* phần footer */
+.footer {
+  width: 100%;
+  height: auto;
+  background: #171719;
+}
+
+.footer-wrapper {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-logo-footer {
+  width: 158px;
+  height: 85px;
+  margin: 50px 0;
+}
+
+.img-footer {
+  width: 100%;
+}
+
+.footer-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #313135;
+  padding-block: 70px 66px;
+}
+
+.footer-item {
+  width: 100%;
+  max-width: 170px;
+  height: auto;
+}
+
+.footer-item1 {
+  width: 100%;
+  max-width: 279px;
+  height: auto;
+}
+
+.footer-item__center {
+  width: 100%;
+  max-width: 470px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.menu-footer {
+  margin-top: 30px;
+  list-style: none;
+}
+
+.item-menu-footer {
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.item-menu-footer1 {
+  margin-top: 15px;
+  text-decoration: none;
+  padding-right: 70px;
+}
+
+.title-footer {
+  letter-spacing: 0px;
+  color: #84848E;
+  text-decoration: none;
+}
+
+.box-subscribe {
+  width: 100%;
+  max-width: 279px;
+  height: 41px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  background: #262628;
+}
+
+.input-sub {
+  max-width: 170px;
+  height: 24px;
+  background: #262628;
+  border: 0;
+  outline: #262628;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #84848E;
+}
+
+.btn-subscribe {
+  width: 60px;
+  height: 24px;
+  padding: 0;
+  color: #FFFFFF;
+  background: #262628;
+  letter-spacing: 0px;
+  border: 0;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-block: 23px;
+}
+
+.box-social{
+  margin-top: 70px;
+}
+
+.box-icon-footer{
+  margin-top: 30px;
+}
+
+.box-icon-footer a{
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.box-icon-footer svg{
+  height: 19px;
+  fill: #FFFFFF;
 }
