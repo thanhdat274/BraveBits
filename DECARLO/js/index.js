@@ -19,3 +19,10 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
 }
+
+const btn = document.getElementById('btn-menu')
+const menu = document.querySelector('.menu-list')
+btn.addEventListener('click', function () {
+  menu.classList.toggle("show")
+  console.log("ahihihi");
+})

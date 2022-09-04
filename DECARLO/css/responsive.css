@@ -1,7 +1,298 @@
 /* Mobile */
 @media (max-width: 768px) {
-  
+  .heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .container {
+    padding-inline: 15px;
+  }
+
+  .container1 {
+    padding-inline: 15px;
+  }
+
+  .box-none {
+    display: none;
+  }
+
+  /* phàn .menu */
+  .menu-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px #ECECEC;
+    border: 1px solid #000;
+    top: 135px;
+    left: -100%;
+    transform: all 0.3s;
+  }
+
+  .menu-list .item-menu {
+    margin: 20px 0;
+    margin-left: 15px;
+  }
+
+  .menu-list.show {
+    left: 0;
+    z-index: 999;
+  }
+
+  .item-menu a {
+    color: #171719;
+  }
+
+  .icon-menu-none {
+    display: block;
+  }
+
+  /* =====SLIDE SHOW===== */
+  .mySlides img {
+    height: 320px;
+  }
+
+  .prev,
+  .next {
+    padding: 16px 0;
+    font-size: 26px;
+  }
+
+  .prev {
+    left: 15px;
+  }
+
+  .next {
+    right: 15px;
+  }
+
+  .text {
+    font-size: 18px;
+    line-height: 27px;
+    bottom: 78px;
+    left: 15px;
+  }
+
+  .button {
+    bottom: 15px;
+    left: 15px;
+  }
+
+  /* phần section1 */
+  .section1 {
+    padding-block: 40px;
+  }
+
+  .section1-content {
+    margin-top: 25px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section1-item {
+    width: 100%;
+    max-width: 165px;
+    height: 222px;
+  }
+
+  .title {
+    bottom: 10px;
+  }
+
+  /* phần box section tiếp theo */
+  .box2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .box2-right {
+    padding: 60px 30px;
+  }
+
+  /* phần .box3 */
+  .box3 {
+    margin-left: 0;
+    overflow-x: hidden;
+  }
+
+  .section3-content {
+    width: 1180px;
+    margin-top: 25px;
+    gap: 0 20px;
+    justify-content: flex-start;
+  }
+
+  .section3-item {
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .box-img::before {
+    top: 10px;
+    right: 10px;
+  }
+
+  .section3-item__title h3 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .section3-item__button {
+    padding: 8px 14px;
+  }
+
+  /* phần .box4 */
+  .box4 img {
+    height: 300px;
+  }
+
+  .section4-content {
+    height: auto;
+    left: 15px;
+  }
+
+  /* phàn .box5 */
+  .section2 {
+    padding-block: 40px;
+  }
+
+  .section5-item {
+    max-width: 345px;
+  }
+
+  /* phần .footer */
+  .box-logo-footer {
+    margin: 40px 0;
+  }
+
+  .footer-content {
+    flex-direction: column-reverse;
+    padding-block: 50px;
+    gap: 60px 0;
+  }
+
+  .footer-item__center {
+    gap: 60px 0;
+  }
 }
 
 /* Tablet */
-@media (min-width: 769px) and (max-width: 1050px) {}
+@media (min-width: 769px) and (max-width: 1030px) {
+  .heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .container {
+    padding-inline: 15px;
+  }
+
+  .container1 {
+    padding-inline: 15px;
+  }
+
+  .box-none {
+    display: none;
+  }
+
+  /* phàn .menu */
+  .menu-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px #ECECEC;
+    border: 1px solid #000;
+    top: 135px;
+    left: -100%;
+    transform: all 0.3s;
+  }
+
+  .menu-list .item-menu {
+    margin: 20px 0;
+    margin-left: 15px;
+  }
+
+  .menu-list.show {
+    left: 0;
+    z-index: 999;
+  }
+
+  .item-menu a {
+    color: #171719;
+  }
+
+  .icon-menu-none {
+    display: block;
+  }
+
+  /* phần section1 */
+  .section1 {
+    padding-block: 40px;
+  }
+
+  .section1-content {
+    margin-top: 25px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  /* phần box section tiếp theo */
+  .box2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* phần .box3 */
+  .box3 {
+    margin-left: 0;
+    overflow-x: hidden;
+  }
+
+  .section3-content {
+    width: 100%;
+    margin-top: 25px;
+    gap: 0 20px;
+    justify-content: center;
+  }
+
+  .section3-item {
+    width: 100%;
+    max-width: 170px;
+  }
+
+  .box-img::before {
+    top: 10px;
+    right: 10px;
+  }
+
+  .section3-item__title h3 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .section3-item__button {
+    padding: 8px 14px;
+  }
+
+  /* phàn .box5 */
+  .section2 {
+    padding-block: 40px;
+  }
+
+  .section5-item {
+    max-width: 345px;
+  }
+}

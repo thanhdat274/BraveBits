@@ -105,6 +105,10 @@ button {
   align-items: center;
 }
 
+.box-none{
+  display: block;
+}
+
 .box p {
   color: #FFFFFF;
 }
@@ -120,7 +124,6 @@ button {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  background: #acacae;
   padding-block: 20px;
 }
 
@@ -131,11 +134,12 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0 20px;
 }
 
 .box-logo {
   width: 138.68px;
-  height: 70px;
+  height: auto;
 }
 
 .img-logo {
@@ -173,7 +177,8 @@ button {
 
 /* phần .box-icon */
 .box-icon {
-  width: 155px;
+  width: 100%;
+  max-width: 155px;
   height: 21px;
   display: flex;
   justify-content: space-between;
@@ -188,6 +193,12 @@ button {
   color: #FFFFFF;
 }
 
+.icon-menu-none{
+  font-size: 22px;
+  margin: auto 0;
+  display: none;
+}
+
 /* =====SLIDE SHOW===== */
 .box-section {
   width: 100%;
@@ -196,11 +207,13 @@ button {
 }
 
 .mySlides {
+  width: 100%;
   display: none;
 }
 
-img {
-  vertical-align: middle;
+.mySlides img{
+  width: 100%;
+  height: auto;
 }
 
 .slideshow-container {
@@ -281,13 +294,14 @@ img {
   align-items: center;
 }
 
-.section1-content {
+.section1-content,
+.section3-content {
   width: 100%;
   height: auto;
   margin-top: 45px;
-  gap: 20px 0;
+  gap: 0 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
@@ -316,16 +330,19 @@ img {
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: nowrap;
 }
 
 .box2-left {
-  width: 593px;
-  height: 593px;
+  width: 100%;
+  max-width: 593px;
+  height: auto;
 }
 
 .box2-right {
-  width: 590px;
-  height: 590px;
+  width: 100%;
+  max-width: 590px;
+  height: auto;
   background: #F5F5F5;
   padding: 133px 90px;
 }
@@ -409,7 +426,8 @@ img {
 }
 
 .section4-content {
-  width: 327px;
+  width: 100%;
+  max-width: 327px;
   height: 152px;
   position: absolute;
   /* top: 269px;
@@ -507,6 +525,7 @@ img {
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-top: 1px solid #313135;
   padding-block: 70px 66px;
@@ -529,6 +548,7 @@ img {
   max-width: 470px;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
