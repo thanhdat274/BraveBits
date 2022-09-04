@@ -4,10 +4,29 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'lato', sans-serif;
+@font-face {
+  font-family: 'Lato';
+  src: url('../font/Lato-Semibold.woff2') format('woff2'),
+    url('../font/Lato-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../font/Lato-Regular.woff2') format('woff2'),
+    url('../font/Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  padding: 0;
+  font-family: 'Lato';
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
 }
 
 #wrapper {
@@ -17,18 +36,44 @@ body {
 }
 
 .block-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #171719;
+}
+
+.block-sub-title {
+  font-family: 'Lato';
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 2px;
+  color: #171719;
 }
 
 .heading {
+  font-family: 'Lato';
+  font-style: normal;
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
   letter-spacing: 2px;
   color: #171719;
+}
+
+button {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #171719;
+  padding: 12px 32px 12px 32px;
 }
 
 .container {
@@ -67,6 +112,7 @@ body {
 .box-select {
   border: 0;
   background: #171719;
+  color: #FFFFFF;
 }
 
 /* phần header */
@@ -199,8 +245,6 @@ img {
 }
 
 .button {
-  color: #171719;
-  padding: 12px 32px;
   background: #FFFFFF;
   position: absolute;
   bottom: 50px;
@@ -227,7 +271,8 @@ img {
   padding-block: 100px;
 }
 
-.box1 {
+.box1,
+.box5 {
   width: 100%;
   height: auto;
   display: flex;
@@ -264,4 +309,168 @@ img {
   width: 125px;
   height: 50px;
   padding: 13px 0;
+}
+
+/* phần box section tiếp theo */
+.box2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.box2-left {
+  width: 593px;
+  height: 593px;
+}
+
+.box2-right {
+  width: 590px;
+  height: 590px;
+  background: #F5F5F5;
+  padding: 133px 90px;
+}
+
+.title1 {
+  margin-top: 20px;
+  color: #84848E;
+  letter-spacing: 0px;
+}
+
+.button1 {
+  margin-top: 70px;
+  background: #FFFFFF;
+  border: 0;
+}
+
+/* phần .box3 */
+.box3 {
+  width: 100%;
+  height: auto;
+  margin-left: -45px;
+  text-align: center;
+}
+
+.section3-item {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px 0;
+}
+
+.box-img {
+  position: relative;
+}
+
+.section3-item__img {
+  width: 100%;
+  height: auto;
+}
+
+.box-img::before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 17.5px;
+  background-image: url(../image/love.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 20px;
+  right: 20px;
+}
+
+.section3-item__title {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.title2 {
+  color: #555562;
+  letter-spacing: 0px;
+}
+
+.section3-item__button {
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #171719;
+}
+
+/* phần .box4 */
+.box4 {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section4-content {
+  width: 327px;
+  height: 152px;
+  position: absolute;
+  /* top: 269px;
+  bottom: 269px; */
+  top: 50%;
+  margin-top: -77px;
+  left: 130px;
+}
+
+.section4-content h2 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.section4-content a {
+  text-decoration: none;
+}
+
+.title3 {
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+
+/* phàn .box5 */
+.section2 {
+  padding-block: 100px;
+  background: #F5F5F5;
+}
+
+.section5-item {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  background: #FFFFFF;
+  padding: 50px 20px;
+}
+
+.box-item {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.box-item img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+.box-item h2 {
+  margin-bottom: 5px;
+}
+.title5 {
+  color: #84848E;
+  letter-spacing: 0px;
+  margin-bottom: 30px;
 }
