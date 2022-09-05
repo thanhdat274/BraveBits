@@ -171,6 +171,18 @@
     margin: 40px 0;
   }
 
+  .box-item-footer:first-child {
+    order: 2;
+  }
+
+  .box-item-footer:last-child {
+    order: 3;
+  }
+
+  .box-item-footer:nth-child(2) {
+    order: 1;
+  }
+
   .footer-content {
     flex-direction: column-reverse;
     padding-block: 50px;
