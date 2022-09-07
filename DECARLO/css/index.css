@@ -23,15 +23,19 @@
 }
 
 :root {
-  --font-size14: 14px;
-  --font-size16: 16px;
-  --font-size18: 18px;
-  --font-size20: 20px;
-  --font-size30: 30px;
+  --font-size14: 0.875rem;
+  --font-size16: 1rem;
+  --font-size18: 1.125rem;
+  --font-size20: 1.25rem;
+  --font-size22: 1.375rem;
+  --font-size24: 1.5rem;
+  --font-size26: 26px;
+  --font-size30: 1.875rem;
 
   --line-height24: 24px;
   --line-height45: 45px;
-  --line-height30: 30px;
+  --line-height30: 1.5;
+  --line-height36: 36px;
 }
 
 body {
@@ -51,7 +55,7 @@ body {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: var(--font-size16);
   line-height: 24px;
   letter-spacing: 2px;
   color: #171719;
@@ -61,7 +65,7 @@ body {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-size14);
   line-height: 24px;
   letter-spacing: 2px;
   color: #171719;
@@ -71,7 +75,7 @@ body {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: var(--font-size30);
   line-height: 45px;
   letter-spacing: 2px;
   color: #171719;
@@ -81,7 +85,7 @@ button {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-size14);
   line-height: 24px;
   letter-spacing: 2px;
   color: #171719;
@@ -141,6 +145,7 @@ button {
   height: auto;
   margin: 0 auto;
   padding-block: 20px;
+  background: #FFFFFF;
 }
 
 .header-wrapper {
@@ -184,7 +189,7 @@ button {
 
 .item-menu a {
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-size14);
   line-height: 24px;
   letter-spacing: 2px;
   text-decoration: none;
@@ -195,7 +200,7 @@ button {
 .box-icon {
   width: 100%;
   max-width: 155px;
-  height: 21px;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -211,8 +216,7 @@ button {
 }
 
 .icon-menu-none {
-  font-size: 22px;
-  margin: auto 0;
+  font-size: var(--font-size22);
   display: none;
 }
 
@@ -253,7 +257,7 @@ button {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  font-size: 22px;
+  font-size: var(--font-size22);
 }
 
 .prev:hover,
@@ -318,7 +322,7 @@ button {
 .section1-content,
 .section3-content {
   width: 100%;
-  height: auto;
+  /* height: auto; */
   margin-top: 45px;
   gap: 0 20px;
   display: flex;
@@ -398,7 +402,7 @@ button {
 .box3 {
   width: 100%;
   height: auto;
-  margin-left: -45px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -451,7 +455,6 @@ button {
 }
 
 .section3-item__button {
-  height: 48px;
   background: #FFFFFF;
   border: 1px solid #171719;
 }
@@ -480,7 +483,7 @@ button {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: var(--font-size20);
   line-height: 30px;
   letter-spacing: 2px;
   color: #FFFFFF;
@@ -641,7 +644,7 @@ button {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--font-size14);
   line-height: 24px;
   color: #84848E;
 }
@@ -673,7 +676,7 @@ button {
 
 .box-icon-footer a {
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: var(--font-size20);
   margin-right: 25px;
   text-decoration: none;
 }

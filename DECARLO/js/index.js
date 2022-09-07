@@ -1,28 +1,20 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+const $ = document.querySelector.bind(document);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+const menuOpen = $('.btn-menu');
+const menuClose = $('.close-menu');
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+menuOpen.addEventListener('click', function () {
+  document.querySelector('.menu-list').style.transition = 'all 0.5s ease';
+  document.querySelector('.menu-list').style.height = '367px';
+  menuOpen.classList.add('disabled');
+  menuClose.classList.add('active');
+  document.querySelector('.overlay').style.display = 'block';
+})
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slides[slideIndex-1].style.display = "block";  
-}
+menuClose.addEventListener('click', function () {
+  document.querySelector('.menu-list').style.height = '0';
+  menuOpen.classList.remove('disabled');
+  menuClose.classList.remove('active');
+  document.querySelector('.overlay').style.display = 'none';
 
-const btn = document.getElementById('btn-menu')
-const menu = document.querySelector('.menu-list')
-btn.addEventListener('click', function () {
-  menu.classList.toggle("show")
-  console.log("ahihihi");
 })
