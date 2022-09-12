@@ -94,13 +94,6 @@ button {
   cursor: pointer;
 }
 
-.container {
-  width: 100%;
-  max-width: 1340px;
-  height: auto;
-  margin: 0 auto;
-}
-
 .container1 {
   width: 100%;
   max-width: 1180px;
@@ -112,6 +105,7 @@ button {
   width: 100%;
   height: auto;
   margin: 0 auto;
+  padding: 0 50px;
   background: #171719;
 }
 
@@ -144,8 +138,9 @@ button {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding-block: 20px;
+  padding: 20px 50px;
   background: #FFFFFF;
+  box-shadow: inset 0px -1px 0px #ECECEC;
 }
 
 .header-wrapper {
@@ -173,6 +168,8 @@ button {
   width: 100%;
   max-width: 791px;
   height: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .menu-list {
@@ -184,6 +181,7 @@ button {
 }
 
 .item-menu {
+  position: relative;
   list-style: none;
 }
 
@@ -194,6 +192,40 @@ button {
   letter-spacing: 2px;
   text-decoration: none;
   color: #171719;
+}
+
+.item-menu i {
+  margin-left: 5px;
+}
+
+.menu-list li:hover .menu-sub-list {
+  z-index: 1;
+  opacity: 1;
+}
+
+.menu-sub-list {
+  width: 150px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity linear 0.15s;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255);
+}
+
+.menu-sub-list li {
+  display: block;
+  font-size: var(--font-size18);
+}
+
+.menu-sub-list li a {
+  padding: 10px 10px;
+  text-align: left;
+  display: block;
+  text-decoration: none;
+  color: #000;
 }
 
 /* phần .box-icon */
