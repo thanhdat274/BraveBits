@@ -671,10 +671,6 @@ body {
     display: none;
   }
 
-  .faq-menu__item {
-    /* height: 47px; */
-  }
-
   .faq-menu__link {
     font-size: 18px;
     line-height: 27px;
