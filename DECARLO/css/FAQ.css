@@ -267,7 +267,7 @@ body {
   cursor: pointer;
 }
 
-input[type="text"] {
+.input-search {
   width: 100%;
   height: 30px;
   border: 1px solid #2cccff;
@@ -670,12 +670,12 @@ input[type="text"] {
   .menu-list {
     position: absolute;
     width: 100%;
-    height: 0;
+    height: auto;
     background: #FFFFFF;
     left: 0;
     top: 80px;
     transition: all 1s;
-    display: block;
+    display: none;
     z-index: 3;
     overflow: hidden;
   }
@@ -831,12 +831,12 @@ input[type="text"] {
   .menu-list {
     position: absolute;
     width: 100%;
-    height: 0;
+    height: auto;
     background: #FFFFFF;
     left: 0;
     top: 80px;
     transition: all 1s;
-    display: block;
+    display: none;
     z-index: 3;
     overflow: hidden;
   }
