@@ -25,11 +25,10 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
+// phần menu 
 const menuItem = $$('.detail-menu__item');
 const menuLink = $$('.detail-menu__link');
 const detailDesc = $$('.detail-desc')
-
-
 
 menuItem.forEach(function (ele, index) {
   ele.addEventListener('click', function (e) {
@@ -43,3 +42,45 @@ menuItem.forEach(function (ele, index) {
     detailDesc[index].classList.add('active');
   })
 })
+
+// phàn tăng số lượng
+const amountProduct = $('.detail-info__addToCart-amount>span');
+const dash = $('.fa-minus');
+const plus = $('.fa-plus');
+console.log(amountProduct);
+
+function plusProduct() {
+  let counterPro = 1;
+  plus.addEventListener('click', function (e) {
+    amountProduct.innerText = ++counterPro;
+  })
+  dash.addEventListener('click', function (e) {
+    if (counterPro <= 1) {
+      amountProduct.innerText = 1;
+    }
+    else {
+      amountProduct.innerText = --counterPro;
+    }
+  })
+}
+plusProduct();
+
+
+// phần yêu thích
+function like() {
+  const detailHeart = $('.icon-like');
+  const detailHeartFill = $('.icon-like-fill');
+
+  if ((detailHeart || detailHeartFill) === null) return;
+
+  detailHeart.onclick = function (event) {
+    detailHeart.classList.remove('active');
+    detailHeartFill.classList.add('active');
+  }
+  detailHeartFill.onclick = function (event) {
+    detailHeartFill.classList.remove('active');
+    detailHeart.classList.add('active');
+  }
+
+}
+like();

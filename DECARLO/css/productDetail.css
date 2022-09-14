@@ -549,6 +549,10 @@ body {
   display: block;
 }
 
+.icon-like-fill.active {
+  display: block;
+}
+
 .icon-like,
 .icon-like-fill {
   font-size: 20px;

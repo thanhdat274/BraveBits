@@ -531,19 +531,16 @@ button {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  position: relative;
+  background-image: url(../image/Rectangle-154.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 185px 130px;
 }
 
 .section4-content {
   width: 100%;
   max-width: 327px;
   height: 152px;
-  position: absolute;
-  /* top: 269px;
-  bottom: 269px; */
-  top: 50%;
-  margin-top: -77px;
-  left: 130px;
 }
 
 .section4-content h2 {

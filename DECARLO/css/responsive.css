@@ -180,13 +180,9 @@
   }
 
   /* phần .box4 */
-  .box4 img {
-    height: 300px;
-  }
-
-  .section4-content {
-    height: auto;
-    left: 15px;
+  .box4 {
+    background-size: cover;
+    padding: 74px 15px;
   }
 
   /* phàn .box5 */
