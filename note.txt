@@ -2,3 +2,25 @@
 
 - cách tính letter-spacing là lấy letter-spacing phần trăm nhân font size chia 100
 
+- HTML Block and Inline Elements có nghĩa là khối html và các phần tử nội tuyến 
+
+- HTML Block and Inline Elements có nghĩa là mỗi phần tử đều có  giá trị hiển thị mặc định, tùy thuộc tính của các loại phần tử
+
+There are two display values: block and inline có nghĩa là chúng ta có hai giá trị hiển thị đó là khối hoặc inline ( là những thẻ hiển thị nội dung trên cùng 1 dòng )
+
+- Block level element là 1 phần từ khổi thường bắt đầu trên dòng mới và các trình duyệt tự động tạo một khoảng cách  trườc và sau phần từ và luôn chiếm full width có sẵn 
+- Element <P> or <DIV> là hai khối thường dùng 
+- Element P là định nghĩa của 1 đoạn văn bản 
+- còn thẻ DIV là 1 phần tử khổi nó thường dùng để tạo ra 1 khổi hoặc gom tất cả phần tử làm 1 khổi
+
+- inline là một phần tử nội tuyến và kho bắt đàu trên một dòng mới và sẽ chiến chiều width khi càn thiết 
+
+sự khác nhau của block và inline là 
+block- level thì thường bắt đàu trên dòng mới và chiếm full width có sẵn
+còn inline ko bắt đàu trên dòng mới và chiến width khi cần thiết
+
+lưu ý là inline element ko chưa block-level element bên trong nó
+
+thẻ DIV là thẻ bao bọc các phần từ vào chung 1 khối và nó ko có giá trị hiện thị mặc định nhưng style, class, id là thuộc tính phổ biến được dùng trong DIV. Khi đc ược css thì nó có thể được dùng làm tạo kiểu cho các khối nội dung.
+
+css display property
