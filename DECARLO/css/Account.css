@@ -405,13 +405,6 @@ td>button {
   border-radius: 5px;
 }
 
-
-
-
-
-
-
-
 /* phần footer */
 .footer {
   width: 100%;
@@ -555,4 +548,272 @@ td>button {
 .box-icon-footer svg {
   height: 19px;
   fill: #FFFFFF;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .heading {
+    font-size: var(--font-size20);
+    line-height: 30px;
+  }
+
+  .container {
+    padding-inline: 15px;
+  }
+
+  .container1 {
+    padding-inline: 15px;
+  }
+
+  .box-none {
+    display: none;
+  }
+
+  /* phàn .menu */
+  .box-top {
+    padding: 0 15px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .header {
+    padding: 15px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .menu-list {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    left: 0;
+    top: 80px;
+    transition: all 1s;
+    display: none;
+    z-index: 3;
+    overflow: hidden;
+  }
+
+  .menu-list .item-menu {
+    padding: 15px;
+  }
+
+  .item-menu:first-child {
+    margin-top: 15px;
+  }
+
+  .item-menu:last-child {
+    margin-bottom: 15px;
+  }
+
+  .item-menu a {
+    color: #171719;
+  }
+
+  .icon-menu-none {
+    display: block;
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  .btn-menu.disabled {
+    display: none;
+  }
+
+  .close-menu.active {
+    display: block;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    display: none;
+  }
+
+  /* phần box account */
+  .box-account {
+    padding-block: 40px;
+  }
+
+  .account-wrapper {
+    flex-direction: column;
+  }
+
+  .icon-menu-account-none {
+    display: block;
+  }
+
+  .box-menu-account {
+    position: relative;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    display: none;
+  }
+
+  table {
+    display: block;
+    overflow: scroll;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+  table::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* phần .footer */
+  .box-logo-footer {
+    margin: 40px 0;
+  }
+
+  .box-item-footer:first-child {
+    order: 2;
+  }
+
+  .box-item-footer:last-child {
+    order: 3;
+  }
+
+  .box-item-footer:nth-child(2) {
+    order: 1;
+  }
+
+  .footer-content {
+    flex-direction: column-reverse;
+    padding-block: 50px;
+    gap: 60px 0;
+  }
+
+  .footer-item__center {
+    gap: 60px 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1030px) {
+  .heading {
+    font-size: var(--font-size20);
+    line-height: 30px;
+  }
+
+  .block-title {
+    font-size: var(--font-size18);
+    line-height: 27px;
+  }
+
+  .container {
+    padding-inline: 15px;
+  }
+
+  .container1 {
+    padding-inline: 15px;
+  }
+
+  .box-none {
+    display: none;
+  }
+
+  /* phàn .menu */
+  .box-top {
+    padding: 0 15px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .header {
+    padding: 15px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .menu-list {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    left: 0;
+    top: 80px;
+    transition: all 1s;
+    display: none;
+    z-index: 3;
+    overflow: hidden;
+  }
+
+  .menu-list .item-menu {
+    padding: 15px;
+  }
+
+  .item-menu:first-child {
+    margin-top: 15px;
+  }
+
+  .item-menu:last-child {
+    margin-bottom: 15px;
+  }
+
+  .item-menu a {
+    color: #171719;
+  }
+
+  .icon-menu-none {
+    display: block;
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  .btn-menu.disabled {
+    display: none;
+  }
+
+  .close-menu.active {
+    display: block;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    display: none;
+  }
+
+  
+  /* phần box account */
+  .box-account {
+    padding-block: 40px;
+  }
+
+  .account-wrapper {
+    flex-direction: column;
+  }
+
+  .icon-menu-account-none {
+    display: block;
+  }
+
+  .box-menu-account {
+    position: relative;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    display: none;
+  }
+
 }
