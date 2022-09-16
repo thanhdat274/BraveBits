@@ -535,7 +535,7 @@ button {
   background-image: url(../image/Rectangle-154.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 185px 130px;
+  padding-block: 185px;
 }
 
 .section4-content {

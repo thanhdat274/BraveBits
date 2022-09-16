@@ -186,7 +186,7 @@
   /* phần .box4 */
   .box4 {
     background-size: cover;
-    padding: 74px 15px;
+    padding-block: 74px;
   }
 
   /* phàn .box5 */
