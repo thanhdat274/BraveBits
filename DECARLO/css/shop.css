@@ -359,6 +359,10 @@ select {
   cursor: pointer;
 }
 
+.item-option{
+  gap: 45px;
+}
+
 .item-option button {
   margin-left: 68px;
   border: 0;
@@ -701,7 +705,7 @@ select {
   }
 
   .item-option button {
-    margin-left: 65px;
+    margin-left: 0px;
   }
 
   .list-products {

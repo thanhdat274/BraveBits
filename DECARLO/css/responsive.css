@@ -160,6 +160,10 @@
     overflow-x: scroll;
   }
 
+  .section3-content::-webkit-scrollbar{
+    display: none;
+  }
+
   .section3-item {
     flex: 0 0 50%;
     max-width: 150px;
